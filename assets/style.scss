@@ -25,8 +25,39 @@ body{
     margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Sora', sans-serif;
+    line-height: 130%;
+}
+
+p{
+    line-height: 150%;
+}
+
+span, a{
+    display: inline-block;
+}
+
+.fs-xsmall{
+    font-size: .75rem;
+}
+
+.fs-small{
+    font-size: .875rem;
+}
+
+.fs-large{
+    font-size: 1.125rem;
+}
 .transition-ease-in{
     transition: all 0.3s ease-in;
 }
 
+.center-x{
+    left: 50%;
+    transform: translateX(-50%)
+}
+
 @import '_header.scss';
+@import '_footer.scss';
+@import '_components.scss';
