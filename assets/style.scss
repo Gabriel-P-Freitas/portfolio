@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --cod-gray-50: #F6F6F6;
+    --cod-gray-300: #B0B0B0;
+    --cod-gray-400: #888888;
+    --cod-gray-950: #090E16;
+    --main-100: #7B4AE2;
+    --main-200: #7B4AE2BF; // 75% opacity
+    --main-300: #7B4AE280; // 50% opacity
+    --main-400: #7B4AE233; // 20% opacity
+    --main-500: #7B4AE21A; // 10% opacity
+}
+
+.color-cod-50{color: var(--cod-gray-50);} .color-cod-300{color: var(--cod-gray-300);} .color-cod-400{color: var(--cod-gray-400);} .color-main-100{color: var(--main-100);}
+
+.bg-main-100{background-color: var(--main-100);} .bg-main-200{background-color: var(--main-200);} .bg-main-300{background-color: var(--main-300);} .bg-main-400{background-color: var(--main-400);} .bg-main-500{background-color: var(--main-500);}
+
+body{
+    background-color: var(--cod-gray-950);
+    color: var(--cod-gray-300);
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+
+.transition-ease-in{
+    transition: all 0.3s ease-in;
+}
+
+@import '_header.scss';

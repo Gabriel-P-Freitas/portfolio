@@ -1,0 +1,20 @@
+header.header-portfolio{
+    a.header-link{
+        border-color: var(--cod-gray-950);
+        transition: all 0.3s ease-in;
+    }
+    a.header-link:hover{
+        border-bottom: 1px solid var(--main-100);
+    }
+    @media screen and (max-width: 768px) {
+        .hidden-menu{
+            display: inline-block;
+        }
+        a.header-link{
+            display: none;
+        }
+        .container{
+            padding-inline: 1rem;
+        }
+    }
+}
