@@ -75,6 +75,11 @@ span, a{
 .fs-large{
     font-size: 1.125rem;
 }
+
+.fs-xlarge{
+    font-size: 1.125rem;
+}
+
 .transition-ease-in{
     transition: all 0.3s ease-in;
 }
@@ -82,6 +87,12 @@ span, a{
 .center-x{
     left: 50%;
     transform: translateX(-50%)
+}
+
+.center-x-y{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .border-main-300{
