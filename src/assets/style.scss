@@ -14,7 +14,7 @@
     --main-500: #7B4AE21A; // 10% opacity
 }
 
-.color-cod-50{color: var(--cod-gray-50);} .color-cod-300{color: var(--cod-gray-300);} .color-cod-400{color: var(--cod-gray-400);} .color-main-100{color: var(--main-100);}
+.color-cod-50{color: var(--cod-gray-50);} .color-cod-300{color: var(--cod-gray-300);} .color-cod-400{color: var(--cod-gray-400);} .color-main-100{color: var(--main-100);} .color-main-200{color: var(--main-200);} .color-main-300{color: var(--main-300);} .color-main-400{color: var(--main-400);}
 
 .bg-main-100{background-color: var(--main-100);} .bg-main-200{background-color: var(--main-200);} .bg-main-300{background-color: var(--main-300);} .bg-main-400{background-color: var(--main-400);} .bg-main-500{background-color: var(--main-500);}
 
@@ -27,7 +27,33 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Sora', sans-serif;
+    font-weight: 700;
     line-height: 130%;
+    color: var(--cod-gray-50);
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+h6{
+    font-size: 1.25rem;
 }
 
 p{
@@ -58,6 +84,19 @@ span, a{
     transform: translateX(-50%)
 }
 
+.border-main-300{
+    border: solid 1px var(--main-300)
+}
+
+.border-end-main-300{
+    border-bottom: solid 1px var(--main-300)
+}
+
+.hover-main-400:hover{
+    background-color: var(--main-400)
+}
+
 @import '_header.scss';
+@import '_main.scss';
 @import '_footer.scss';
 @import '_components.scss';

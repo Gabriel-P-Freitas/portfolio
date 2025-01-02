@@ -1,0 +1,21 @@
+main{
+    .my-experience{
+        max-width: 61.5rem;
+    }
+    .sec-praticas-projetos{
+        .card-pratica{
+            min-height: 32.5rem;
+            .figma-anchor{
+                font-size: 1.75rem;
+            }
+            .figma-anchor:hover{
+                color: var(--cod-gray-50);
+                background-color: var(--main-300);
+            }
+            .github-anchor:hover{
+                color: var(--cod-gray-50);
+            }
+
+        }
+    }
+}

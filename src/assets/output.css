@@ -597,17 +597,61 @@ video {
   margin-right: auto;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.me-2 {
+  margin-inline-end: 0.5rem;
+}
+
+.ms-2 {
+  margin-inline-start: 0.5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .hidden {
   display: none;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
 .h-max {
   height: -moz-max-content;
   height: max-content;
+}
+
+.w-7\/12 {
+  width: 58.333333%;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .w-full {
@@ -623,12 +667,45 @@ video {
   flex: 1 1 auto;
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
 }
 
 .gap-x-4 {
@@ -641,6 +718,23 @@ video {
        column-gap: 1.5rem;
 }
 
+.gap-x-8 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
+.gap-y-2 {
+  row-gap: 0.5rem;
+}
+
+.gap-y-3 {
+  row-gap: 0.75rem;
+}
+
+.gap-y-4 {
+  row-gap: 1rem;
+}
+
 .gap-y-6 {
   row-gap: 1.5rem;
 }
@@ -649,12 +743,59 @@ video {
   justify-self: start;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .py-3 {
@@ -667,13 +808,52 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.align-baseline {
+  vertical-align: baseline;
+}
+
 .align-middle {
   vertical-align: middle;
+}
+
+.text-2xl\/none {
+  font-size: 1.5rem;
+  line-height: 1;
 }
 
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-xl\/none {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 :root {
@@ -702,6 +882,18 @@ video {
 
 .color-main-100 {
   color: var(--main-100);
+}
+
+.color-main-200 {
+  color: var(--main-200);
+}
+
+.color-main-300 {
+  color: var(--main-300);
+}
+
+.color-main-400 {
+  color: var(--main-400);
 }
 
 .bg-main-100 {
@@ -733,7 +925,33 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Sora", sans-serif;
+  font-weight: 700;
   line-height: 130%;
+  color: var(--cod-gray-50);
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
 }
 
 p {
@@ -765,8 +983,20 @@ span, a {
   transform: translateX(-50%);
 }
 
+.border-main-300 {
+  border: solid 1px var(--main-300);
+}
+
+.border-end-main-300 {
+  border-bottom: solid 1px var(--main-300);
+}
+
+.hover-main-400:hover {
+  background-color: var(--main-400);
+}
+
 header.header-portfolio a.header-link {
-  border-color: var(--cod-gray-950);
+  border-bottom: 1px solid transparent;
   transition: all 0.3s ease-in;
 }
 
@@ -788,7 +1018,28 @@ header.header-portfolio a.header-link:hover {
   }
 }
 
-@media screen and (max-width: 578px) {
+main .my-experience {
+  max-width: 61.5rem;
+}
+
+main .sec-praticas-projetos .card-pratica {
+  min-height: 32.5rem;
+}
+
+main .sec-praticas-projetos .card-pratica .figma-anchor {
+  font-size: 1.75rem;
+}
+
+main .sec-praticas-projetos .card-pratica .figma-anchor:hover {
+  color: var(--cod-gray-50);
+  background-color: var(--main-300);
+}
+
+main .sec-praticas-projetos .card-pratica .github-anchor:hover {
+  color: var(--cod-gray-50);
+}
+
+@media screen and (max-width: 576px) {
   footer.footer-portfolio .content-footer {
     flex-direction: column;
   }

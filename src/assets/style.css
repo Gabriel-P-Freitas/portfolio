@@ -29,6 +29,18 @@
   color: var(--main-100);
 }
 
+.color-main-200 {
+  color: var(--main-200);
+}
+
+.color-main-300 {
+  color: var(--main-300);
+}
+
+.color-main-400 {
+  color: var(--main-400);
+}
+
 .bg-main-100 {
   background-color: var(--main-100);
 }
@@ -58,7 +70,33 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Sora", sans-serif;
+  font-weight: 700;
   line-height: 130%;
+  color: var(--cod-gray-50);
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
 }
 
 p {
@@ -90,8 +128,20 @@ span, a {
   transform: translateX(-50%);
 }
 
+.border-main-300 {
+  border: solid 1px var(--main-300);
+}
+
+.border-end-main-300 {
+  border-bottom: solid 1px var(--main-300);
+}
+
+.hover-main-400:hover {
+  background-color: var(--main-400);
+}
+
 header.header-portfolio a.header-link {
-  border-color: var(--cod-gray-950);
+  border-bottom: 1px solid transparent;
   transition: all 0.3s ease-in;
 }
 header.header-portfolio a.header-link:hover {
@@ -109,7 +159,24 @@ header.header-portfolio a.header-link:hover {
   }
 }
 
-@media screen and (max-width: 578px) {
+main .my-experience {
+  max-width: 61.5rem;
+}
+main .sec-praticas-projetos .card-pratica {
+  min-height: 32.5rem;
+}
+main .sec-praticas-projetos .card-pratica .figma-anchor {
+  font-size: 1.75rem;
+}
+main .sec-praticas-projetos .card-pratica .figma-anchor:hover {
+  color: var(--cod-gray-50);
+  background-color: var(--main-300);
+}
+main .sec-praticas-projetos .card-pratica .github-anchor:hover {
+  color: var(--cod-gray-50);
+}
+
+@media screen and (max-width: 576px) {
   footer.footer-portfolio .content-footer {
     flex-direction: column;
   }

@@ -30,4 +30,4 @@ export default {
 }
 }
 
-// npx tailwindcss -i ./assets/style.css -o ./assets/output.css --watch 
+// npx tailwindcss -i ./src/assets/style.css -o ./src/assets/output.css --watch 
