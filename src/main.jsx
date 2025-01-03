@@ -336,6 +336,67 @@ createRoot(document.getElementById('root')).render(
 
       </section>
 
+      <section className='sec-skills py-16 bg-main-500'>
+        <div className="skills-content container mx-auto flex flex-col items-center gap-y-12 text-center">
+          <div className="header-skills">
+            <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500 mb-6 mx-auto'>🧑‍💻 Skills · Experiências</h6>
+            <h2 className=''>Tecnologias e habilidades</h2>
+          </div>
+
+          <div className="tech-dia-dia">
+            <h5 className='color-cod-300 font-normal raleway mb-4'>Tecnologias que uso no dia a dia</h5>
+            <figure className='flex gap-x-12 justify-center'>
+              <img src="src/assets/imgs/HTML5.svg" alt="" />
+              
+              <img src="src/assets/imgs/CSS-3.svg" alt="" />
+              
+              <img src="src/assets/imgs/JavaScript.svg" alt="" />
+              
+              <img src="src/assets/imgs/SCSS.svg" alt="" />
+              
+              <img src="src/assets/imgs/Bootsrap.svg" alt="Bootstrap icon" />
+              
+              <img src="src/assets/imgs/Github.svg" alt="" />
+              
+              <img src="src/assets/imgs/Git.svg" alt="" />
+              
+              <img src="src/assets/imgs/Figma.svg" alt="" />
+
+              <img src="src/assets/imgs/Jira.svg" alt="" />
+            </figure>
+
+          </div>
+
+          <div className="tech-recents">
+            <h5 className='color-cod-300 font-normal raleway mb-4'>Tecnologias que uso no dia a dia</h5>
+            <figure className='flex gap-x-12 justify-center'>
+              <img src="src/assets/imgs/Nodejs_hover.svg" alt="" />
+              
+              <img src="src/assets/imgs/Python.svg" alt="" />
+              
+              <img src="src/assets/imgs/mysql.svg" alt="" />
+              
+              <img src="src/assets/imgs/Php.svg" alt="" />
+              
+              <img src="src/assets/imgs/wordpress.svg" alt="Bootstrap icon" />
+              
+              <img src="src/assets/imgs/react.svg" alt="" />
+
+              <img src="src/assets/imgs/vuejs.svg" alt="" />
+
+              <img src="src/assets/imgs/Tailwind.svg" alt="" />
+
+            </figure>
+
+
+
+          </div>
+
+
+        </div>
+        
+      </section>
+
     </main>
 
     <Footer />

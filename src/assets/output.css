@@ -625,10 +625,6 @@ video {
   margin-inline-start: 0.5rem;
 }
 
-.ms-auto {
-  margin-inline-start: auto;
-}
-
 .block {
   display: block;
 }
@@ -723,6 +719,11 @@ video {
   gap: 1.5rem;
 }
 
+.gap-x-12 {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+
 .gap-x-2 {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
@@ -759,12 +760,12 @@ video {
   row-gap: 1.5rem;
 }
 
-.justify-self-start {
-  justify-self: start;
+.gap-y-12 {
+  row-gap: 3rem;
 }
 
-.text-ellipsis {
-  text-overflow: ellipsis;
+.justify-self-start {
+  justify-self: start;
 }
 
 .rounded {
@@ -1011,6 +1012,10 @@ p {
 
 span, a {
   display: inline-block;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
 }
 
 .fs-xsmall {
