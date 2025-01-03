@@ -103,7 +103,7 @@ p {
   line-height: 150%;
 }
 
-span, a {
+span, a, source {
   display: inline-block;
 }
 
@@ -124,7 +124,7 @@ span, a {
 }
 
 .fs-xlarge {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 .transition-ease-in {
@@ -190,7 +190,7 @@ main .sec-praticas-projetos .card-pratica .github-anchor:hover {
   color: var(--cod-gray-50);
 }
 main .bloco-depoimento {
-  animation: 3s normal slide-depoimentos;
+  animation: 3s infinite alternate-reverse slide-depoimentos;
 }
 @keyframes slide-depoimentos {
   from {
@@ -198,6 +198,15 @@ main .bloco-depoimento {
   }
   to {
     background-color: var(--main-500);
+  }
+}
+main .sec-contact .hover-color-100:hover {
+  color: var(--main-100);
+}
+@media screen and (max-width: 1280px) {
+  main .hero-saudacoes {
+    flex-direction: column wrap !important;
+    justify-content: space-between;
   }
 }
 

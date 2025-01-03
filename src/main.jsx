@@ -9,7 +9,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
     <main>
-      <section className="hero container mx-auto flex justify-between items-center py-16">
+      <section className="hero-saudacoes container mx-auto flex justify-between items-center py-16">
         <div className="personal-description flex flex-col gap-y-4">
           <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500'>👋 Saudações!</h6>
           <h1>Gabriel Pessoa</h1>
@@ -23,7 +23,7 @@ createRoot(document.getElementById('root')).render(
         <picture>
           <source srcSet='src/assets/imgs/avatar-mobile.svg'
            media='(max-width: 576px)'/>
-          <source srcSet='src/assets/imgs/avatar-tablet.svg' media='(max-width: 992px)'/>
+          <source srcSet='src/assets/imgs/avatar-tablet.svg' media='(max-width: 1280px)'/>
           <img src="src/assets/imgs/avatar-desktop.svg" alt="Avatar Gabriel" />
         </picture>
 
@@ -558,7 +558,9 @@ createRoot(document.getElementById('root')).render(
             <blockquote className='bloco-depoimento w-1/3 border-main-300 p-4 rounded-2xl'>
               <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
               <p className='mb-4'>
-                <q>O Gabriel está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!</q>
+                <q>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lobortis lorem. Sed sollicitudin enim laoreet mi faucibus vulputate. Mauris quis risus iaculis, rhoncus leo et, condimentum orci. Integer cursus lorem sit amet molestie semper.
+                </q>
               </p>
               <figure className="autor flex items-center gap-x-4">
                 <img src="src/assets/imgs/Cesar.svg" alt="" />
@@ -572,7 +574,9 @@ createRoot(document.getElementById('root')).render(
             <blockquote className='bloco-depoimento w-1/3 border-main-300 p-4 rounded-2xl'>
               <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
               <p className='mb-4'>
-                <q>O Gabriel está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!</q>
+                <q>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lobortis lorem. Sed sollicitudin enim laoreet mi faucibus vulputate. Mauris quis risus iaculis, rhoncus leo et, condimentum orci. Integer cursus lorem sit amet molestie semper.
+                </q>
               </p>
               <figure className="autor flex items-center gap-x-4">
                 <img src="src/assets/imgs/Cesar.svg" alt="" />
@@ -586,7 +590,9 @@ createRoot(document.getElementById('root')).render(
             <blockquote className='bloco-depoimento w-1/3 border-main-300 p-4 rounded-2xl'>
               <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
               <p className='mb-4'>
-                <q>O Gabriel está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!</q>
+                <q>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lobortis lorem. Sed sollicitudin enim laoreet mi faucibus vulputate. Mauris quis risus iaculis, rhoncus leo et, condimentum orci. Integer cursus lorem sit amet molestie semper.
+                </q>
               </p>
               <figure className="autor flex items-center gap-x-4">
                 <img src="src/assets/imgs/Cesar.svg" alt="" />
@@ -597,6 +603,29 @@ createRoot(document.getElementById('root')).render(
               </figure>
             </blockquote>
           </div>
+
+
+      </section>
+
+      <section className='sec-contact container mx-auto py-16 flex flex-col gap-y-8 items-center'>
+        <div className="header-contact">
+          <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500 mb-4 mx-auto'>📬 Contatos</h6>
+          <h2 className=''>Vamos conversar!</h2>
+        </div>
+
+        <div className="contact flex w-9/12 gap-x-6 color-main-300 mb-4">
+          <button className='border-main-300 w-6/12  flex items-center gap-x-2 hover-main-400 hover-color-100  transition-ease-in rounded-2xl py-3 px-8'>
+            <i className="text-5xl fa-brands fa-whatsapp"></i>
+            <p className='w-full font-bold text-center fs-xlarge'>Vamos conversar</p>
+          </button>
+          <button className='border-main-300 w-6/12 relative flex items-center gap-x-1 hover-main-400 hover-color-100 transition-ease-in rounded-2xl py-3 px-8'>
+            <p className='w-full text-center fs-xlarge'><span className="font-bold">E-mail:</span> <span className='color-cod-300'>gabriel.pessoa.dev@gmail.com</span></p>
+            <i className="text-3xl/none fa-regular fa-paper-plane"></i>
+            <i className="absolute top-0 right-0 bg-main-500 p-1 rounded fa-regular fa-copy"></i>
+          </button>
+        </div>
+
+        <a href='' className='fs-xlarge color-main-300 hover-color-100 transition-ease-in'><i className="text-4xl/none pe-2 align-middle fa-solid fa-arrow-up-long"></i>Voltar ao topo</a>
 
 
       </section>

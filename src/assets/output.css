@@ -592,6 +592,22 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -666,6 +682,10 @@ video {
   width: 33.333333%;
 }
 
+.w-6\/12 {
+  width: 50%;
+}
+
 .w-7\/12 {
   width: 58.333333%;
 }
@@ -676,6 +696,10 @@ video {
 
 .w-80 {
   width: 20rem;
+}
+
+.w-9\/12 {
+  width: 75%;
 }
 
 .w-full {
@@ -727,6 +751,11 @@ video {
   gap: 1.5rem;
 }
 
+.gap-x-1 {
+  -moz-column-gap: 0.25rem;
+       column-gap: 0.25rem;
+}
+
 .gap-x-12 {
   -moz-column-gap: 3rem;
        column-gap: 3rem;
@@ -770,6 +799,10 @@ video {
 
 .gap-y-6 {
   row-gap: 1.5rem;
+}
+
+.gap-y-8 {
+  row-gap: 2rem;
 }
 
 .justify-self-start {
@@ -835,6 +868,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -862,6 +900,10 @@ video {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pe-2 {
+  padding-inline-end: 0.5rem;
 }
 
 .ps-2 {
@@ -901,6 +943,11 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-4xl\/none {
+  font-size: 2.25rem;
+  line-height: 1;
 }
 
 .text-5xl {
@@ -1031,7 +1078,7 @@ p {
   line-height: 150%;
 }
 
-span, a {
+span, a, source {
   display: inline-block;
 }
 
@@ -1052,7 +1099,7 @@ span, a {
 }
 
 .fs-xlarge {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 .transition-ease-in {
@@ -1127,7 +1174,7 @@ main .sec-praticas-projetos .card-pratica .github-anchor:hover {
 }
 
 main .bloco-depoimento {
-  animation: 3s normal slide-depoimentos;
+  animation: 3s infinite alternate-reverse slide-depoimentos;
 }
 
 @keyframes slide-depoimentos {
@@ -1137,6 +1184,17 @@ main .bloco-depoimento {
 
   to {
     background-color: var(--main-500);
+  }
+}
+
+main .sec-contact .hover-color-100:hover {
+  color: var(--main-100);
+}
+
+@media screen and (max-width: 1280px) {
+  main .hero-saudacoes {
+    flex-direction: column wrap !important;
+    justify-content: space-between;
   }
 }
 

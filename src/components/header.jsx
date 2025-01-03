@@ -1,7 +1,7 @@
 function Header() {
 
   return (
-    <header className="header-portfolio bg-main-500 py-3">
+    <header className="header-portfolio sticky top-0 z-10 bg-main-500 py-3">
       <div className="container mx-auto flex items-center justify-between">
         <a href=""><img src="src/assets/imgs/logo.svg" alt="" /></a>
         <nav className="nav-header">

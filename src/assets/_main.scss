@@ -1,4 +1,5 @@
 main{
+    
     .my-experience{
         max-width: 61.5rem;
     }
@@ -18,11 +19,8 @@ main{
 
         }
     }
-    .sec-videos{
-        .card-video:{}
-    }
     .bloco-depoimento{
-        animation: 3s normal slide-depoimentos;
+        animation: 3s infinite alternate-reverse slide-depoimentos;
         @keyframes slide-depoimentos {
             from{
                 background-color: transparent;
@@ -32,5 +30,18 @@ main{
                 background-color: var(--main-500);
             }
         }
+    }
+    .sec-contact{
+        .hover-color-100:hover{
+            color: var(--main-100);
+        }
+        
+    }
+    @media screen and (max-width: 1280px) {
+        .hero-saudacoes{
+            flex-direction: column wrap !important;
+            justify-content: space-between;
+        }
+        
     }
 }
