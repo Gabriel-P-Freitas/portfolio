@@ -397,6 +397,210 @@ createRoot(document.getElementById('root')).render(
         
       </section>
 
+      <section className='sec-trajetoria container mx-auto py-16'>
+        <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500 mb-4 mx-auto'>💼 Carreira</h6>
+        <h2 className='mb-16 text-center'>Trajetória até aqui</h2>
+
+        <div className="list-trajetoria flex gap-6">
+          <div className="academica w-1/2 flex flex-col gap-y-6">
+            <div className="header-trajetoria text-center">
+              <h4 className='mb-2'>Acadêmica</h4>
+              <h5 className='raleway color-cod-300 font-normal'>2021 · Atualmente</h5>
+            </div>
+
+            <ul className='flex flex-col gap-y-6'>
+              <li>
+                <article className='p-4 border-main-300 bg-main-500 rounded-2xl'>
+                  <header className="mb-2">
+                    <h6 className='mb-2'>Cursando ensino médio técnico em Informática para Internet</h6>
+                  </header>
+                  <p className='mb-4'>Logo mais, se Deus quiser, concluirei o meu ensino médio técnico no Instituto Federal de Ciências e Tecnologia do Rio Grande do Norte (IFRN). onde o meu ensino médio é integrado ao curso Informática para Internet.</p>
+                  <div className="tempo flex justify-between color-main-100 fs-large">
+                    <p className='font-bold'>+3 anos </p>
+                    <p><time dateTime="2021-05">Maio/2021</time> - Atualmente</p>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article className='p-4 border-main-300 bg-main-500 rounded-2xl'>
+                  <header className="mb-2">
+                    <h6 className='mb-2'>Capacitação em Sistemas Embarcados</h6>
+                  </header>
+                  <p className='mb-4'>
+                    O curso é alinhado ao eixo tecnológico de Informação e Comunicação. O curso visa atender as necessidades das áreas de Informática ou Engenharias à programação e manutenção de sistemas embarcados com tecnologias de Internet das Coisas (IoT), permitindo a criação de soluções inovadoras. Alguns objetivos específicos do curso são: <br />
+                    • Preparar os/às estudantes para prestar suporte técnico, manutenção e outros serviços em dispositivos eletrônicos dedicados, contribuindo para o avanço tecnológico e o crescimento da indústria de sistemas embarcados. <br />
+                    • Capacitar os/às estudantes para integrar sistemas embarcados com tecnologias de Internet das Coisas (IoT), permitindo a criação de soluções inovadoras que conectem dispositivos e possibilitem a automação e o monitoramento em tempo real, atendendo às demandas emergentes de diversos setores da indústria.
+                  </p>
+                  <div className="tempo flex justify-between color-main-100 fs-large">
+                    <p className='font-bold'>+2 meses </p>
+                    <p><time dateTime="2024-11">Novembro/2024</time> - Atualmente</p>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article className='p-4 border-main-300 rounded-2xl'>
+                  <header className="mb-2">
+                    <h6 className='mb-2'>Curso Metodologia da Pesquisa e Orientação de Projetos de Iniciação Científica da empresa</h6>
+                  </header>
+                  <p className='mb-4'>
+                    Neste curso aprendi sobre metodologias de pesquisa, como trabalhar em projetos de inovações e como me certificar que ele seja realmente inovador. Com carga horária total de 30 horas, pude também ver a essência de um trabalho em equipe num projeto, com um orientador ou coordenador.
+                  </p>
+                  <div className="tempo flex justify-between color-main-100 fs-large">
+                    <p className='font-bold'>30 horas</p>
+                    <p><time dateTime="2023-06">Junho/2023</time></p>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article className='p-4 border-main-300 rounded-2xl'>
+                  <header className="mb-2">
+                    <h6 className='mb-2'>Ministração do Minicurso - Web Design Profissional: Responsividade com HTML e CSS. </h6>
+                  </header>
+                  <p className='mb-4'>
+                    Ministrei o minicurso de Web Design profissional, no qual foi dividido em dois dias com duas horas em cada dia durante o evento da SECIT (Semana de Ciência e Tecnologia) realizado pelo IFRN - Campus Natal Zona Norte, onde estudo atualmente. Esteve em foco no curso: <br />
+                    • Desenvolvimento de uma Landing Page com HTML e CSS; <br />
+                    • Uso de breaking points para deixa-la responsiva; <br />
+                    • Exposição de técnicas de responsividade para facilitar a integração do conteúdo em diferentes layouts (Mobile, Tablet, Notebook...);
+                  </p>
+                  <div className="tempo flex justify-between color-main-100 fs-large">
+                    <p className='font-bold'>4 horas</p>
+                    <p><time dateTime="2023-10">Outubro/2023</time></p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+
+          </div>
+
+          <div className="profissional w-1/2 flex flex-col gap-y-6">
+            <div className="header-trajetoria text-center">
+              <h4 className='mb-2'>Área profissional</h4>
+              <h5 className='raleway color-cod-300 font-normal'>2023 · Atualmente</h5>
+            </div>
+
+            <ul className='flex flex-col gap-y-6'>
+              <li>
+                <article className='p-4 border-main-300 bg-main-500 rounded-2xl'>
+                  <header className="mb-2">
+                    <h6 className='mb-2'>Bolsista do projeto de extensão AWE</h6>
+                  </header>
+                  <p className='mb-4'>
+                    Atualmente sou bolsista do projeto de extensão Agência Web Escolar no próprio IFRN, em que sou muito feliz por fazer parte desse projeto que vem transformando minha visão e carreira profissional, capacitando-me para o futuro mercado de trabalho, do qual em breve, se Deus quiser, irei ingressar. <br />
+                    E também, exerço aqui o cargo de Full Stack Develloper | Apprentice onde desenvolvemos aplicações direcionadas para plataformas web, com desenvolvimento do Design de uma aplicação até a sua programação funcional, FrontEnd, BackEnd e até programação mobile (flutter).
+                  </p>
+                  <div className="tempo flex justify-between color-main-100 fs-large">
+                    <p className='font-bold'>+6 meses</p>
+                    <p><time dateTime="2024-07">Julho/2024</time> - Atualmente</p>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article className='p-4 border-main-300 rounded-2xl'>
+                  <header className="mb-2">
+                    <h6 className='mb-2'>Voluntário do projeto de extensão AWE</h6>
+                  </header>
+                  <p className='mb-4'>
+                    Fui também voluntário no projeto de extensão do IFRN a Agência Web Escolar (AWE), onde obtive muitos conhecimentos profissionais desenvolvendo projetos. Ali, graças a Deus, exerci o cargo de Full Stack Develloper | Apprentice.
+                  </p>
+                  <div className="tempo flex justify-between color-main-100 fs-large">
+                    <p className='font-bold'>7 meses</p>
+                    <p><time dateTime="2024-06">Junho/2023</time> - <time dateTime="2024-01">Janeiro/2024</time></p>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article className='p-4 border-main-300 rounded-2xl'>
+                  <header className="mb-2">
+                    <h6 className='mb-2'>Tutor de aprendizagem de laboratório (TAL)</h6>
+                  </header>
+                  <p className='mb-4'>
+                    No início do ano letivo de 2023 (Quando eu estava no terceiro ano) me inscrevi no edital para tutores do IFRN, especificamente para a disciplina técnica de Design Web e Arquitetura da Informação ofertada no segundo ano. Do qual, graças a Deus, fui aprovado em entrevista e tive uma experiência de 7 meses auxiliando o professor na disciplina.
+                  </p>
+                  <div className="tempo flex justify-between color-main-100 fs-large">
+                    <p className='font-bold'>8 meses</p>
+                    <p><time dateTime="2024-05">Maio/2023</time> - <time dateTime="2024-01">Janeiro/2024</time></p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+
+          </div>
+
+
+        </div>
+
+      </section>
+
+      <section className='sec-depoimentos container mx-auto py-16'>
+        <div className="header-depoimentos flex justify-between items-end mb-12">
+            <div className="description-sec">
+              <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500 mb-2'>💬 Recomendações</h6>
+              <h2>Em depoimento</h2>
+            </div>
+            <div className="filter-praticas flex items-center gap-x-6 color-main-300">
+              <button className="flex items-center gap-x-2 hover-main-400 transition-ease-in py-4 px-5 border-main-300 rounded-2xl">
+                <i className="text-3xl/none fa-solid fa-chevron-left"></i>
+
+              </button>
+
+              <button className="flex items-center gap-x-2 hover-main-400 transition-ease-in py-4 px-5 border-main-300 rounded-2xl">
+                <i className="text-3xl/none fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div className="slide-depoimentos flex gap-x-6">
+            <blockquote className='bloco-depoimento w-1/3 border-main-300 p-4 rounded-2xl'>
+              <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
+              <p className='mb-4'>
+                <q>O Gabriel está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!</q>
+              </p>
+              <figure className="autor flex items-center gap-x-4">
+                <img src="src/assets/imgs/Cesar.svg" alt="" />
+                <div className="info-autor">
+                  <h6>Cesimar Xavier</h6>
+                  <figcaption>Professor em Design</figcaption>
+                </div>
+              </figure>
+            </blockquote>
+
+            <blockquote className='bloco-depoimento w-1/3 border-main-300 p-4 rounded-2xl'>
+              <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
+              <p className='mb-4'>
+                <q>O Gabriel está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!</q>
+              </p>
+              <figure className="autor flex items-center gap-x-4">
+                <img src="src/assets/imgs/Cesar.svg" alt="" />
+                <div className="info-autor">
+                  <h6>Cesimar Xavier</h6>
+                  <figcaption>Professor em Design</figcaption>
+                </div>
+              </figure>
+            </blockquote>
+
+            <blockquote className='bloco-depoimento w-1/3 border-main-300 p-4 rounded-2xl'>
+              <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
+              <p className='mb-4'>
+                <q>O Gabriel está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!</q>
+              </p>
+              <figure className="autor flex items-center gap-x-4">
+                <img src="src/assets/imgs/Cesar.svg" alt="" />
+                <div className="info-autor">
+                  <h6>Cesimar Xavier</h6>
+                  <figcaption>Professor em Design</figcaption>
+                </div>
+              </figure>
+            </blockquote>
+          </div>
+
+
+      </section>
+
     </main>
 
     <Footer />

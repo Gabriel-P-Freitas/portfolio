@@ -21,4 +21,16 @@ main{
     .sec-videos{
         .card-video:{}
     }
+    .bloco-depoimento{
+        animation: 3s normal slide-depoimentos;
+        @keyframes slide-depoimentos {
+            from{
+                background-color: transparent;
+            }
+
+            to{
+                background-color: var(--main-500);
+            }
+        }
+    }
 }

@@ -189,6 +189,18 @@ main .sec-praticas-projetos .card-pratica .figma-anchor:hover {
 main .sec-praticas-projetos .card-pratica .github-anchor:hover {
   color: var(--cod-gray-50);
 }
+main .bloco-depoimento {
+  animation: 3s normal slide-depoimentos;
+}
+@keyframes slide-depoimentos {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: var(--main-500);
+  }
+}
+
 @media screen and (max-width: 576px) {
   footer.footer-portfolio .content-footer {
     flex-direction: column;

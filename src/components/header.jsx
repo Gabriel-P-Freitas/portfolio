@@ -13,7 +13,7 @@ function Header() {
             <li><a className="header-link p-1" href="">Carreira</a></li>
             <li><a className="header-link p-1" href="">Recomendações</a></li>
             <li><a className="header-link p-1" href="">Contato</a></li>
-            <li className="hidden hidden-menu"><a href=""><img className="" src="../../assets/imgs/menu.svg" alt="" /></a></li>
+            <li className="hidden hidden-menu"><a href=""><img className="" src="src/assets/imgs/menu.svg" alt="" /></a></li>
           </ul>
         </nav>
       </div>
