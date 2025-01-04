@@ -173,6 +173,21 @@ header.header-portfolio a.header-link:hover {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  main .hero-saudacoes .avatar-gabriel img {
+    width: 536px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  main .hero-saudacoes .avatar-gabriel img {
+    width: 452px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .hero-saudacoes .avatar-gabriel img {
+    width: 100%;
+  }
+}
 main .my-experience {
   max-width: 61.5rem;
 }
@@ -203,13 +218,6 @@ main .bloco-depoimento {
 main .sec-contact .hover-color-100:hover {
   color: var(--main-100);
 }
-@media screen and (max-width: 1280px) {
-  main .hero-saudacoes {
-    flex-direction: column wrap !important;
-    justify-content: space-between;
-  }
-}
-
 @media screen and (max-width: 576px) {
   footer.footer-portfolio .content-footer {
     flex-direction: column;

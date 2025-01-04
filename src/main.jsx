@@ -9,7 +9,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
     <main>
-      <section className="hero-saudacoes container mx-auto flex justify-between items-center py-16">
+      <section className="hero-saudacoes container mx-auto flex gap-x-6 flex-wrap items-center py-16">
         <div className="personal-description flex flex-col gap-y-4">
           <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500'>👋 Saudações!</h6>
           <h1>Gabriel Pessoa</h1>
@@ -20,7 +20,7 @@ createRoot(document.getElementById('root')).render(
           </ul>
         </div>
         
-        <picture>
+        <picture className='avatar-gabriel'>
           <source srcSet='src/assets/imgs/avatar-mobile.svg'
            media='(max-width: 576px)'/>
           <source srcSet='src/assets/imgs/avatar-tablet.svg' media='(max-width: 1280px)'/>
