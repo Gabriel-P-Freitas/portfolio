@@ -747,6 +747,10 @@ video {
   gap: 0.5rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
 }
@@ -1152,24 +1156,6 @@ header.header-portfolio a.header-link:hover {
   }
 }
 
-@media screen and (min-width: 1280px) {
-  main .hero-saudacoes .avatar-gabriel img {
-    width: 536px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  main .hero-saudacoes .avatar-gabriel img {
-    width: 452px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  main .hero-saudacoes .avatar-gabriel img {
-    width: 100%;
-  }
-}
-
 main .my-experience {
   max-width: 61.5rem;
 }
@@ -1207,6 +1193,39 @@ main .bloco-depoimento {
 
 main .sec-contact .hover-color-100:hover {
   color: var(--main-100);
+}
+
+@media screen and (min-width: 1280px) {
+  main img {
+    width: 536px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  main .hero-saudacoes .avatar-gabriel img {
+    width: 452px;
+  }
+
+  main .hero-saudacoes .buttons-contact {
+    flex-direction: row;
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  main .hero-saudacoes .avatar-gabriel img {
+    width: 100%;
+  }
+
+  main .hero-saudacoes .buttons-contact {
+    margin-inline: 0;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  main .hero-saudacoes .buttons-contact {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 576px) {

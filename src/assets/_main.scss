@@ -1,25 +1,4 @@
 main{
-    .hero-saudacoes{
-        .avatar-gabriel{
-            @media screen and (min-width: 1280px) {
-                img{
-                    width: 536px;
-                }
-            }
-
-            @media screen and (max-width: 1280px) {
-                img{
-                    width: 452px;
-                }
-            }
-
-            @media screen and (max-width: 576px) {
-                img{
-                    width: 100%;
-                }
-            }
-        }
-    }
     .my-experience{
         max-width: 61.5rem;
     }
@@ -57,8 +36,56 @@ main{
         }
         
     }
+
+    @media screen and (min-width: 1280px) {
+        img{
+            width: 536px;
+        }
+        
+    }
+    
     @media screen and (max-width: 1280px) {
         .hero-saudacoes{
+            .avatar-gabriel{
+                img{
+                    width: 452px;
+                }
+    
+            }
+            .buttons-contact{
+                flex-direction: row;
+                margin-inline: auto;
+            }
+        }
+        
+    }
+
+    @media screen and (max-width: 992px) {
+        .hero-saudacoes{
+            .avatar-gabriel{
+                img{
+                    width: 100%;
+                }
+
+            }
+            .buttons-contact{
+                margin-inline: 0;
+            }
+        }
+        
+    }
+
+    @media screen and (max-width: 640px) {
+        .hero-saudacoes{
+        }
+        
+    }
+
+    @media screen and (max-width: 428px) {
+        .hero-saudacoes{
+            .buttons-contact{
+                flex-direction: column;
+            }
         }
         
     }

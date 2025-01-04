@@ -9,7 +9,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
     <main>
-      <section className="hero-saudacoes container mx-auto flex gap-x-6 flex-wrap items-center py-16">
+      <section className="hero-saudacoes container mx-auto flex justify-between flex-wrap items-center py-16">
         <div className="personal-description flex flex-col gap-y-4">
           <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500'>👋 Saudações!</h6>
           <h1>Gabriel Pessoa</h1>
@@ -21,13 +21,12 @@ createRoot(document.getElementById('root')).render(
         </div>
         
         <picture className='avatar-gabriel'>
-          <source srcSet='src/assets/imgs/avatar-mobile.svg'
-           media='(max-width: 576px)'/>
+          <source srcSet='src/assets/imgs/avatar-mobile.svg' media='(max-width: 576px)'/>
           <source srcSet='src/assets/imgs/avatar-tablet.svg' media='(max-width: 1280px)'/>
           <img src="src/assets/imgs/avatar-desktop.svg" alt="Avatar Gabriel" />
         </picture>
 
-        <div className="buttons-contact flex flex-col gap-y-4 items-end">
+        <div className="buttons-contact flex flex-col gap-4 items-end">
           <button className='bg-main-500 rounded-2xl w-max'>
             <a className='color-main-300 px-10 flex items-center py-3' href="#" target='_blank'>Baixar CV <i className="text-xl/none ms-2 fa-regular fa-circle-down"></i></a>
           </button>
