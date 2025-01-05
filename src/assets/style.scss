@@ -111,6 +111,10 @@ span, a, source{
     background-color: var(--main-400)
 }
 
+.hover-color-100:hover{
+    color: var(--main-100);
+}
+
 @import '_header.scss';
 @import '_main.scss';
 @import '_footer.scss';

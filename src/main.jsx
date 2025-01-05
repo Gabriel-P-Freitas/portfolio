@@ -27,22 +27,21 @@ createRoot(document.getElementById('root')).render(
         </picture>
 
         <div className="buttons-contact flex flex-col gap-4 items-end">
-          <button className='bg-main-500 rounded-2xl w-max'>
-            <a className='color-main-300 px-10 flex items-center py-3' href="#" target='_blank'>Baixar CV <i className="text-xl/none ms-2 fa-regular fa-circle-down"></i></a>
+          <button className='bg-main-500 w-max rounded-2xl'>
+            <a className='color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in px-10 flex items-center py-3' href="#" target='_blank'>Baixar CV <i className="text-xl/none ms-2 fa-regular fa-circle-down"></i></a>
           </button>
-          <button className='border-main-300 rounded-2xl w-max'>
-            <a className='color-main-300 flex items-center px-4 py-3' href="#" target='_blank'><i className="text-2xl/none me-2 fa-brands fa-whatsapp"></i> Vamos conversar</a>
+          <button className='border-main-300 w-max rounded-2xl'>
+            <a className='color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in flex items-center px-4 py-3' href="#" target='_blank'><i className="text-2xl/none me-2 fa-brands fa-whatsapp"></i> Vamos conversar</a>
           </button>
 
         </div>
 
       </section>
 
-      <section className='bg-main-500 py-16'>
-        <div className="content container mx-auto flex items-center gap-x-6">
+      <section className='sec-sobre-mim bg-main-500 py-16'>
+        <div className="sobre-mim-content container mx-auto flex items-center gap-6">
           <picture>
             <source srcSet='src/assets/imgs/perfil-responsive.svg' media="(max-width: 992px)" />
-          
             <img src="src/assets/imgs/perfil-desktop.svg" alt="Meu perfil" />
           </picture>
           
@@ -102,12 +101,12 @@ createRoot(document.getElementById('root')).render(
       </section>
 
       <section className='sec-praticas-projetos container mx-auto py-16'>
-        <div className="header-praticas flex justify-between items-end mb-12">
+        <div className="header-praticas flex justify-between items-end gap-y-6 mb-12">
           <div className="description-sec">
             <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500 mb-2'>🔗 Portfólio</h6>
             <h2>Práticas e projetos</h2>
           </div>
-          <div className="filter-praticas flex items-center gap-x-8">
+          <div className="filter-praticas flex flex-wrap items-center gap-x-8 gap-y-6">
             <button className="flex items-center gap-x-2 hover-main-400 transition-ease-in py-3 px-6 border-main-300 rounded-2xl">
               <img src="src/assets/imgs/projects.svg" alt="" />
               <h6 className="font-semibold color-main-300">Projetos</h6>
@@ -120,8 +119,8 @@ createRoot(document.getElementById('root')).render(
           </div>
         </div>
 
-        <ul className='grid grid-cols-3 gap-6'>
-          <li>
+        <ul className='list-praticas grid grid-cols-3 gap-6'>
+          <li className=''>
             <button className='card-pratica text-start hover-main-400 transition-ease-in flex flex-col justify-between h-96 p-6 border-main-300 rounded-2xl'>
               <div>
                 <h6 className="mb-4">TYPOGRAPH</h6>
@@ -143,7 +142,7 @@ createRoot(document.getElementById('root')).render(
 
             </button>
           </li>
-          <li>
+          <li className=''>
             <button className='card-pratica text-start hover-main-400 transition-ease-in flex flex-col justify-between h-96 p-6 border-main-300 rounded-2xl'>
               <div>
                 <h6 className="mb-4">TYPOGRAPH</h6>
@@ -165,7 +164,7 @@ createRoot(document.getElementById('root')).render(
 
             </button>
           </li>
-          <li>
+          <li className=''>
             <button className='card-pratica text-start hover-main-400 transition-ease-in flex flex-col justify-between h-96 p-6 border-main-300 rounded-2xl'>
               <div>
                 <h6 className="mb-4">TYPOGRAPH</h6>
@@ -187,7 +186,7 @@ createRoot(document.getElementById('root')).render(
 
             </button>
           </li>
-          <li>
+          <li className=''>
             <button className='card-pratica text-start hover-main-400 transition-ease-in flex flex-col justify-between h-96 p-6 border-main-300 rounded-2xl'>
               <div>
                 <h6 className="mb-4">TYPOGRAPH</h6>
@@ -209,7 +208,7 @@ createRoot(document.getElementById('root')).render(
 
             </button>
           </li>
-          <li>
+          <li className=''>
             <button className='card-pratica text-start hover-main-400 transition-ease-in flex flex-col justify-between h-96 p-6 border-main-300 rounded-2xl'>
               <div>
                 <h6 className="mb-4">TYPOGRAPH</h6>
@@ -231,7 +230,7 @@ createRoot(document.getElementById('root')).render(
 
             </button>
           </li>
-          <li>
+          <li className=''>
             <button className='card-pratica text-start hover-main-400 transition-ease-in flex flex-col justify-between h-96 p-6 border-main-300 rounded-2xl'>
               <div>
                 <h6 className="mb-4">TYPOGRAPH</h6>
@@ -261,9 +260,9 @@ createRoot(document.getElementById('root')).render(
 
       <section className='sec-videos container mx-auto py-16'>
         <h2 className='mb-2'>Projetos em vídeos</h2>
-        <p className='w-7/12 fs-xlarge mb-6'>Aqui são exibidos alguns videos curtos de projetos que tive o prazer de trabalhar, conquistar novas experiências e saberes. Alguns deles contei com excelentes equipes.</p>
+        <p className='text-sec-project w-7/12 fs-xlarge mb-6'>Aqui são exibidos alguns videos curtos de projetos que tive o prazer de trabalhar, conquistar novas experiências e saberes. Alguns deles contei com excelentes equipes.</p>
 
-        <ul className='flex gap-x-6 mb-8'>
+        <ul className='list-videos flex gap-x-6 mb-8'>
           <li className='w-1/3'>
             <a className='card-video hover-main-400 transition-ease-in pb-4 border-main-300 rounded-2xl' href="">
               <figure className='relative mb-4'>
@@ -344,46 +343,46 @@ createRoot(document.getElementById('root')).render(
 
           <div className="tech-dia-dia">
             <h5 className='color-cod-300 font-normal raleway mb-4'>Tecnologias que uso no dia a dia</h5>
-            <figure className='flex gap-x-12 justify-center'>
-              <img src="src/assets/imgs/HTML5.svg" alt="" />
+            <figure className='tecnologias-content flex flex-wrap gap-12 justify-center'>
+              <figcaption className='tecnologia-caption'><i className="tecnologia text-7xl fa-brands fa-html5"></i></figcaption>
               
-              <img src="src/assets/imgs/CSS-3.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-7xl fa-brands fa-css3-alt"></i></figcaption>
               
-              <img src="src/assets/imgs/JavaScript.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-7xl fa-brands fa-js"></i></figcaption>
               
-              <img src="src/assets/imgs/SCSS.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-6xl fa-brands fa-sass"></i></figcaption>
               
-              <img src="src/assets/imgs/Bootsrap.svg" alt="Bootstrap icon" />
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-6xl fa-brands fa-bootstrap"></i></figcaption>
               
-              <img src="src/assets/imgs/Github.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-7xl fa-brands fa-github"></i></figcaption>
               
-              <img src="src/assets/imgs/Git.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-7xl fa-brands fa-git-alt"></i></figcaption>
               
-              <img src="src/assets/imgs/Figma.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-7xl fa-brands fa-figma"></i></figcaption>
 
-              <img src="src/assets/imgs/Jira.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className='tecnologia text-7xl icon-jira'></i></figcaption>
             </figure>
 
           </div>
 
           <div className="tech-recents">
             <h5 className='color-cod-300 font-normal raleway mb-4'>Tecnologias que uso no dia a dia</h5>
-            <figure className='flex gap-x-12 justify-center'>
-              <img src="src/assets/imgs/Nodejs_hover.svg" alt="" />
+            <figure className='tecnologias-content flex flex-wrap gap-12 justify-center'>
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-6xl fa-brands fa-node"></i></figcaption>
               
-              <img src="src/assets/imgs/Python.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-7xl fa-brands fa-python"></i></figcaption>
               
-              <img src="src/assets/imgs/mysql.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className='tecnologia text-7xl icon-mysql'></i></figcaption>
               
-              <img src="src/assets/imgs/Php.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-6xl fa-brands fa-php"></i></figcaption>
               
-              <img src="src/assets/imgs/wordpress.svg" alt="Bootstrap icon" />
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-7xl fa-brands fa-wordpress-simple"></i></figcaption>
               
-              <img src="src/assets/imgs/react.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-7xl fa-brands fa-react"></i></figcaption>
 
-              <img src="src/assets/imgs/vuejs.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className="tecnologia text-7xl fa-brands fa-vuejs"></i></figcaption>
 
-              <img src="src/assets/imgs/Tailwind.svg" alt="" />
+              <figcaption className="tecnologia-caption"><i className='tecnologia text-7xl icon-tailwind-css'></i></figcaption>
 
             </figure>
 
@@ -398,30 +397,17 @@ createRoot(document.getElementById('root')).render(
 
       <section className='sec-trajetoria container mx-auto py-16'>
         <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500 mb-4 mx-auto'>💼 Carreira</h6>
-        <h2 className='mb-16 text-center'>Trajetória até aqui</h2>
+        <h2 className='mb-12 text-center'>Trajetória até aqui</h2>
 
         <div className="list-trajetoria flex gap-6">
-          <div className="academica w-1/2 flex flex-col gap-y-6">
+          <div className="column-trajetoria academica w-1/2 flex flex-col gap-y-6">
             <div className="header-trajetoria text-center">
               <h4 className='mb-2'>Acadêmica</h4>
               <h5 className='raleway color-cod-300 font-normal'>2021 · Atualmente</h5>
             </div>
 
-            <ul className='flex flex-col gap-y-6'>
-              <li>
-                <article className='p-4 border-main-300 bg-main-500 rounded-2xl'>
-                  <header className="mb-2">
-                    <h6 className='mb-2'>Cursando ensino médio técnico em Informática para Internet</h6>
-                  </header>
-                  <p className='mb-4'>Logo mais, se Deus quiser, concluirei o meu ensino médio técnico no Instituto Federal de Ciências e Tecnologia do Rio Grande do Norte (IFRN). onde o meu ensino médio é integrado ao curso Informática para Internet.</p>
-                  <div className="tempo flex justify-between color-main-100 fs-large">
-                    <p className='font-bold'>+3 anos </p>
-                    <p><time dateTime="2021-05">Maio/2021</time> - Atualmente</p>
-                  </div>
-                </article>
-              </li>
-
-              <li>
+            <ul className='cards-trajetoria flex flex-col gap-6'>
+              <li className='card-trajetoria'>
                 <article className='p-4 border-main-300 bg-main-500 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Capacitação em Sistemas Embarcados</h6>
@@ -431,14 +417,28 @@ createRoot(document.getElementById('root')).render(
                     • Preparar os/às estudantes para prestar suporte técnico, manutenção e outros serviços em dispositivos eletrônicos dedicados, contribuindo para o avanço tecnológico e o crescimento da indústria de sistemas embarcados. <br />
                     • Capacitar os/às estudantes para integrar sistemas embarcados com tecnologias de Internet das Coisas (IoT), permitindo a criação de soluções inovadoras que conectem dispositivos e possibilitem a automação e o monitoramento em tempo real, atendendo às demandas emergentes de diversos setores da indústria.
                   </p>
-                  <div className="tempo flex justify-between color-main-100 fs-large">
+                  <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
                     <p className='font-bold'>+2 meses </p>
                     <p><time dateTime="2024-11">Novembro/2024</time> - Atualmente</p>
                   </div>
                 </article>
               </li>
 
-              <li>
+              <li className='card-trajetoria'>
+                <article className='p-4 border-main-300 bg-main-500 rounded-2xl'>
+                  <header className="mb-2">
+                    <h6 className='mb-2'>Cursando ensino médio técnico em Informática para Internet</h6>
+                  </header>
+                  <p className='mb-4'>Logo mais, se Deus quiser, concluirei o meu ensino médio técnico no Instituto Federal de Ciências e Tecnologia do Rio Grande do Norte (IFRN). onde o meu ensino médio é integrado ao curso Informática para Internet.</p>
+                  <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
+                    <p className='font-bold'>+3 anos </p>
+                    <p><time dateTime="2021-05">Maio/2021</time> - Atualmente</p>
+                  </div>
+                </article>
+              </li>
+
+
+              <li className='card-trajetoria'>
                 <article className='p-4 border-main-300 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Curso Metodologia da Pesquisa e Orientação de Projetos de Iniciação Científica da empresa</h6>
@@ -446,14 +446,14 @@ createRoot(document.getElementById('root')).render(
                   <p className='mb-4'>
                     Neste curso aprendi sobre metodologias de pesquisa, como trabalhar em projetos de inovações e como me certificar que ele seja realmente inovador. Com carga horária total de 30 horas, pude também ver a essência de um trabalho em equipe num projeto, com um orientador ou coordenador.
                   </p>
-                  <div className="tempo flex justify-between color-main-100 fs-large">
+                  <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
                     <p className='font-bold'>30 horas</p>
                     <p><time dateTime="2023-06">Junho/2023</time></p>
                   </div>
                 </article>
               </li>
 
-              <li>
+              <li className='card-trajetoria'>
                 <article className='p-4 border-main-300 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Ministração do Minicurso - Web Design Profissional: Responsividade com HTML e CSS. </h6>
@@ -464,7 +464,7 @@ createRoot(document.getElementById('root')).render(
                     • Uso de breaking points para deixa-la responsiva; <br />
                     • Exposição de técnicas de responsividade para facilitar a integração do conteúdo em diferentes layouts (Mobile, Tablet, Notebook...);
                   </p>
-                  <div className="tempo flex justify-between color-main-100 fs-large">
+                  <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
                     <p className='font-bold'>4 horas</p>
                     <p><time dateTime="2023-10">Outubro/2023</time></p>
                   </div>
@@ -474,14 +474,14 @@ createRoot(document.getElementById('root')).render(
 
           </div>
 
-          <div className="profissional w-1/2 flex flex-col gap-y-6">
+          <div className="column-trajetoria profissional w-1/2 flex flex-col gap-y-6">
             <div className="header-trajetoria text-center">
               <h4 className='mb-2'>Área profissional</h4>
               <h5 className='raleway color-cod-300 font-normal'>2023 · Atualmente</h5>
             </div>
 
-            <ul className='flex flex-col gap-y-6'>
-              <li>
+            <ul className='cards-trajetoria flex flex-col gap-6'>
+              <li className='card-trajetoria'>
                 <article className='p-4 border-main-300 bg-main-500 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Bolsista do projeto de extensão AWE</h6>
@@ -490,14 +490,14 @@ createRoot(document.getElementById('root')).render(
                     Atualmente sou bolsista do projeto de extensão Agência Web Escolar no próprio IFRN, em que sou muito feliz por fazer parte desse projeto que vem transformando minha visão e carreira profissional, capacitando-me para o futuro mercado de trabalho, do qual em breve, se Deus quiser, irei ingressar. <br />
                     E também, exerço aqui o cargo de Full Stack Develloper | Apprentice onde desenvolvemos aplicações direcionadas para plataformas web, com desenvolvimento do Design de uma aplicação até a sua programação funcional, FrontEnd, BackEnd e até programação mobile (flutter).
                   </p>
-                  <div className="tempo flex justify-between color-main-100 fs-large">
+                  <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
                     <p className='font-bold'>+6 meses</p>
                     <p><time dateTime="2024-07">Julho/2024</time> - Atualmente</p>
                   </div>
                 </article>
               </li>
 
-              <li>
+              <li className='card-trajetoria'>
                 <article className='p-4 border-main-300 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Voluntário do projeto de extensão AWE</h6>
@@ -505,14 +505,14 @@ createRoot(document.getElementById('root')).render(
                   <p className='mb-4'>
                     Fui também voluntário no projeto de extensão do IFRN a Agência Web Escolar (AWE), onde obtive muitos conhecimentos profissionais desenvolvendo projetos. Ali, graças a Deus, exerci o cargo de Full Stack Develloper | Apprentice.
                   </p>
-                  <div className="tempo flex justify-between color-main-100 fs-large">
+                  <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
                     <p className='font-bold'>7 meses</p>
                     <p><time dateTime="2024-06">Junho/2023</time> - <time dateTime="2024-01">Janeiro/2024</time></p>
                   </div>
                 </article>
               </li>
 
-              <li>
+              <li className='card-trajetoria'>
                 <article className='p-4 border-main-300 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Tutor de aprendizagem de laboratório (TAL)</h6>
@@ -520,7 +520,7 @@ createRoot(document.getElementById('root')).render(
                   <p className='mb-4'>
                     No início do ano letivo de 2023 (Quando eu estava no terceiro ano) me inscrevi no edital para tutores do IFRN, especificamente para a disciplina técnica de Design Web e Arquitetura da Informação ofertada no segundo ano. Do qual, graças a Deus, fui aprovado em entrevista e tive uma experiência de 7 meses auxiliando o professor na disciplina.
                   </p>
-                  <div className="tempo flex justify-between color-main-100 fs-large">
+                  <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
                     <p className='font-bold'>8 meses</p>
                     <p><time dateTime="2024-05">Maio/2023</time> - <time dateTime="2024-01">Janeiro/2024</time></p>
                   </div>

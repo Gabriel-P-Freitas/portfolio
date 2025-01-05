@@ -154,6 +154,10 @@ span, a, source {
   background-color: var(--main-400);
 }
 
+.hover-color-100:hover {
+  color: var(--main-100);
+}
+
 header.header-portfolio a.header-link {
   border-bottom: 1px solid transparent;
   transition: all 0.3s ease-in;
@@ -173,6 +177,9 @@ header.header-portfolio a.header-link:hover {
   }
 }
 
+main .hero-saudacoes .avatar-gabriel img {
+  width: 536px;
+}
 main .my-experience {
   max-width: 61.5rem;
 }
@@ -189,45 +196,95 @@ main .sec-praticas-projetos .card-pratica .figma-anchor:hover {
 main .sec-praticas-projetos .card-pratica .github-anchor:hover {
   color: var(--cod-gray-50);
 }
-main .bloco-depoimento {
+main .tecnologias-content .tecnologia-caption {
+  width: 75px;
+  height: 75px;
+}
+main .tecnologias-content .tecnologia-caption .tecnologia {
   animation: 3s infinite alternate-reverse slide-depoimentos;
 }
 @keyframes slide-depoimentos {
   from {
-    background-color: transparent;
+    color: var(--main-300);
   }
   to {
-    background-color: var(--main-500);
-  }
-}
-main .sec-contact .hover-color-100:hover {
-  color: var(--main-100);
-}
-@media screen and (min-width: 1280px) {
-  main img {
-    width: 536px;
+    color: var(--main-100);
   }
 }
 @media screen and (max-width: 1280px) {
-  main .hero-saudacoes .avatar-gabriel img {
-    width: 452px;
-  }
   main .hero-saudacoes .buttons-contact {
     flex-direction: row;
     margin-inline: auto;
   }
+  main .hero-saudacoes .avatar-gabriel img {
+    width: 28.25rem;
+  }
+  main .sec-praticas-projetos .list-praticas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  main .sec-videos .list-videos {
+    overflow-x: scroll;
+  }
+  main .sec-videos .list-videos li {
+    min-width: 26.5rem;
+  }
 }
 @media screen and (max-width: 992px) {
+  main .sec-praticas-projetos .header-praticas {
+    align-items: start;
+    flex-direction: column;
+  }
+  main .sec-videos .text-sec-project {
+    width: 100%;
+  }
+  main .sec-trajetoria .list-trajetoria {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  main .sec-trajetoria .list-trajetoria .column-trajetoria {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
   main .hero-saudacoes .avatar-gabriel img {
     width: 100%;
   }
   main .hero-saudacoes .buttons-contact {
-    margin-inline: 0;
+    margin-inline: clamp(0rem, 6vw, 3rem);
+  }
+  main .sobre-mim-content {
+    flex-direction: column;
+  }
+  main .sobre-mim-content picture, main .sobre-mim-content picture > img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  main .sobre-mim-content .sobre-mim {
+    width: 100%;
+  }
+  main .sec-praticas-projetos .list-praticas {
+    display: flex;
+    overflow-x: scroll;
+  }
+  main .sec-praticas-projetos .list-praticas .card-pratica {
+    width: 24.75rem;
+  }
+  main .sec-trajetoria .list-trajetoria .column-trajetoria {
+    width: 100%;
   }
 }
 @media screen and (max-width: 428px) {
   main .hero-saudacoes .buttons-contact {
     flex-direction: column;
+    margin-inline: auto;
+  }
+  main .sec-trajetoria .column-trajetoria .cards-trajetoria {
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+  main .sec-trajetoria .column-trajetoria .cards-trajetoria .card-trajetoria {
+    min-width: 100%;
   }
 }
 
