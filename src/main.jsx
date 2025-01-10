@@ -1,9 +1,21 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './assets/output.css'
-import './assets/style.css'
+import './assets/styles/output.css'
+import './assets/styles/style.css'
+
 import Header from './components/header.jsx'
 import Footer from './components/footer.jsx'
+
+  // function OnToggleClickMenu(){
+  //   let = menuToggle = 
+  //   if (menuToggle.addEventListener('click', () => {
+  //     // Adiciona ou remove a classe 'active' no elemento mobileMenu
+  //     mobileMenu.classList.add('active');
+  //   }));
+  //   else{
+  //     mobileMenu.classList.remove('active');
+  //   }
+  // }
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,17 +33,17 @@ createRoot(document.getElementById('root')).render(
         </div>
         
         <picture className='avatar-gabriel'>
-          <source srcSet='src/assets/imgs/avatar-mobile.svg' media='(max-width: 576px)'/>
-          <source srcSet='src/assets/imgs/avatar-tablet.svg' media='(max-width: 1280px)'/>
-          <img src="src/assets/imgs/avatar-desktop.svg" alt="Avatar Gabriel" />
+          <source srcSet='./src/assets/imgs/avatar-mobile.svg' media='(max-width: 576px)'/>
+          <source srcSet='./src/assets/imgs/avatar-tablet.svg' media='(max-width: 1280px)'/>
+          <img src="./src/assets/imgs/avatar-desktop.svg" alt="Avatar Gabriel" />
         </picture>
 
         <div className="buttons-contact flex flex-col gap-4 items-end">
           <button className='bg-main-500 w-max rounded-2xl'>
-            <a className='color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in px-10 flex items-center py-3' href="#" target='_blank'>Baixar CV <i className="text-xl/none ms-2 fa-regular fa-circle-down"></i></a>
+            <a className='color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in px-10 flex items-center py-3' href="src/assets/imgs/CV - Gabriel Pessoa.pdf" download={'CV - Gabriel Pessoa'}>Baixar CV <i className="text-xl/none ms-2 fa-regular fa-circle-down"></i></a>
           </button>
           <button className='border-main-300 w-max rounded-2xl'>
-            <a className='color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in flex items-center px-4 py-3' href="#" target='_blank'><i className="text-2xl/none me-2 fa-brands fa-whatsapp"></i> Vamos conversar</a>
+            <a className='color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in flex items-center px-4 py-3' href="https://api.whatsapp.com/send/?phone=5584991700480&text&type=phone_number&app_absent=0" target='_blank'><i className="text-2xl/none me-2 fa-brands fa-whatsapp"></i> Vamos conversar</a>
           </button>
 
         </div>
@@ -42,7 +54,7 @@ createRoot(document.getElementById('root')).render(
         <div className="sobre-mim-content container mx-auto flex items-center gap-6">
           <picture>
             <source srcSet='src/assets/imgs/perfil-responsive.svg' media="(max-width: 992px)" />
-            <img src="src/assets/imgs/perfil-desktop.svg" alt="Meu perfil" />
+            <img src="./src/assets/imgs/perfil-desktop.svg" alt="Meu perfil" />
           </picture>
           
           <div className="sobre-mim w-7/12 flex flex-col gap-y-4">
@@ -75,13 +87,13 @@ createRoot(document.getElementById('root')).render(
       <section className='py-16 border-end-main-300'>
         <div className="my-experience container mx-auto flex flex-wrap justify-center gap-6">
           <button className='border-main-300 w-80 rounded-2xl px-1 py-6 flex flex-col items-center gap-y-2'>
-            <img src="src/assets/imgs/codeIcon.svg" alt="Ícone de código" />
+            <img src="./src/assets/imgs/codeIcon.svg" alt="Ícone de código" />
             <p>3 anos de</p>
             <h5>Programação</h5>
           </button>
 
           <button className='border-main-300 w-80 rounded-2xl px-1 py-6 flex flex-col items-center gap-y-2'>
-            <img src="src/assets/imgs/projectsIcon.svg" alt="Ícone Kanban" />
+            <img src="./src/assets/imgs/projectsIcon.svg" alt="Ícone Kanban" />
             <p>2 anos de</p>
             <h5>Expêriencia Profissional</h5>
           </button>
@@ -108,12 +120,12 @@ createRoot(document.getElementById('root')).render(
           </div>
           <div className="filter-praticas flex flex-wrap items-center gap-x-8 gap-y-6">
             <button className="flex items-center gap-x-2 hover-main-400 transition-ease-in py-3 px-6 border-main-300 rounded-2xl">
-              <img src="src/assets/imgs/projects.svg" alt="" />
+              <img src="./src/assets/imgs/projects.svg" alt="" />
               <h6 className="font-semibold color-main-300">Projetos</h6>
             </button>
 
             <button className="flex items-center gap-x-2 hover-main-400 transition-ease-in py-3 px-6 border-main-300 rounded-2xl">
-              <img src="src/assets/imgs/praticasIcon.svg" alt="" />
+              <img src="./src/assets/imgs/praticasIcon.svg" alt="" />
               <h6 className="font-semibold color-main-300">Práticas</h6>
             </button>
           </div>
@@ -133,7 +145,7 @@ createRoot(document.getElementById('root')).render(
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="./src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
                   <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
                   <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
@@ -155,7 +167,7 @@ createRoot(document.getElementById('root')).render(
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="./src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
                   <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
                   <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
@@ -177,7 +189,7 @@ createRoot(document.getElementById('root')).render(
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="./src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
                   <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
                   <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
@@ -199,7 +211,7 @@ createRoot(document.getElementById('root')).render(
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="./src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
                   <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
                   <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
@@ -221,7 +233,7 @@ createRoot(document.getElementById('root')).render(
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="./src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
                   <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
                   <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
@@ -243,7 +255,7 @@ createRoot(document.getElementById('root')).render(
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="./src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
                   <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
                   <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
@@ -266,7 +278,7 @@ createRoot(document.getElementById('root')).render(
           <li className='w-1/3'>
             <a className='card-video hover-main-400 transition-ease-in pb-4 border-main-300 rounded-2xl' href="">
               <figure className='relative mb-4'>
-                <img className='rounded-t-2xl' src="/src/assets/imgs/portfolio-video.svg" alt="portfolio" />
+                <img className='rounded-t-2xl' src="./src/assets/imgs/portfolio-video.svg" alt="portfolio" />
                 <span className='absolute center-x-y bg-main-300 px-5 py-4 rounded-full'><i className="text-2xl/none color-cod-50 fa-solid fa-play"></i></span>
               </figure>
               <div className="content-video px-4">
@@ -288,7 +300,7 @@ createRoot(document.getElementById('root')).render(
           <li className='w-1/3'>
             <a className='card-video hover-main-400 transition-ease-in pb-4 border-main-300 rounded-2xl' href="">
               <figure className='relative mb-4'>
-                <img className='rounded-t-2xl' src="/src/assets/imgs/portfolio-video.svg" alt="portfolio" />
+                <img className='rounded-t-2xl' src="./src/assets/imgs/portfolio-video.svg" alt="portfolio" />
                 <span className='absolute center-x-y bg-main-300 px-5 py-4 rounded-full'><i className="text-2xl/none color-cod-50 fa-solid fa-play"></i></span>
               </figure>
               <div className="content-video px-4">
@@ -310,7 +322,7 @@ createRoot(document.getElementById('root')).render(
           <li className='w-1/3'>
             <a className='card-video hover-main-400 transition-ease-in pb-4 border-main-300 rounded-2xl' href="">
               <figure className='relative mb-4'>
-                <img className='rounded-t-2xl' src="/src/assets/imgs/portfolio-video.svg" alt="portfolio" />
+                <img className='rounded-t-2xl' src="./src/assets/imgs/portfolio-video.svg" alt="portfolio" />
                 <span className='absolute center-x-y bg-main-300 px-5 py-4 rounded-full'><i className="text-2xl/none color-cod-50 fa-solid fa-play"></i></span>
               </figure>
               <div className="content-video px-4">
@@ -408,7 +420,7 @@ createRoot(document.getElementById('root')).render(
 
             <ul className='cards-trajetoria flex flex-col gap-6'>
               <li className='card-trajetoria'>
-                <article className='p-4 border-main-300 bg-main-500 rounded-2xl'>
+                <article className='p-4 border-main-300 hover-main-400 transition-ease-in bg-main-500 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Capacitação em Sistemas Embarcados</h6>
                   </header>
@@ -425,7 +437,7 @@ createRoot(document.getElementById('root')).render(
               </li>
 
               <li className='card-trajetoria'>
-                <article className='p-4 border-main-300 bg-main-500 rounded-2xl'>
+                <article className='p-4 hover-main-400 transition-ease-in border-main-300 bg-main-500 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Cursando ensino médio técnico em Informática para Internet</h6>
                   </header>
@@ -439,7 +451,7 @@ createRoot(document.getElementById('root')).render(
 
 
               <li className='card-trajetoria'>
-                <article className='p-4 border-main-300 rounded-2xl'>
+                <article className='p-4 hover-main-400 transition-ease-in border-main-300 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Curso Metodologia da Pesquisa e Orientação de Projetos de Iniciação Científica da empresa</h6>
                   </header>
@@ -454,7 +466,7 @@ createRoot(document.getElementById('root')).render(
               </li>
 
               <li className='card-trajetoria'>
-                <article className='p-4 border-main-300 rounded-2xl'>
+                <article className='p-4 hover-main-400 transition-ease-in border-main-300 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Ministração do Minicurso - Web Design Profissional: Responsividade com HTML e CSS. </h6>
                   </header>
@@ -482,7 +494,7 @@ createRoot(document.getElementById('root')).render(
 
             <ul className='cards-trajetoria flex flex-col gap-6'>
               <li className='card-trajetoria'>
-                <article className='p-4 border-main-300 bg-main-500 rounded-2xl'>
+                <article className='p-4 hover-main-400 transition-ease-in border-main-300 bg-main-500 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Bolsista do projeto de extensão AWE</h6>
                   </header>
@@ -498,7 +510,7 @@ createRoot(document.getElementById('root')).render(
               </li>
 
               <li className='card-trajetoria'>
-                <article className='p-4 border-main-300 rounded-2xl'>
+                <article className='p-4 hover-main-400 transition-ease-in border-main-300 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Voluntário do projeto de extensão AWE</h6>
                   </header>
@@ -513,12 +525,12 @@ createRoot(document.getElementById('root')).render(
               </li>
 
               <li className='card-trajetoria'>
-                <article className='p-4 border-main-300 rounded-2xl'>
+                <article className='p-4 hover-main-400 transition-ease-in border-main-300 rounded-2xl'>
                   <header className="mb-2">
                     <h6 className='mb-2'>Tutor de aprendizagem de laboratório (TAL)</h6>
                   </header>
                   <p className='mb-4'>
-                    No início do ano letivo de 2023 (Quando eu estava no terceiro ano) me inscrevi no edital para tutores do IFRN, especificamente para a disciplina técnica de Design Web e Arquitetura da Informação ofertada no segundo ano. Do qual, graças a Deus, fui aprovado em entrevista e tive uma experiência de 7 meses auxiliando o professor na disciplina.
+                    No início do ano letivo de 2023 (Quando eu estava no terceiro ano) me inscrevi no edital para tutores do IFRN, especificamente para a disciplina técnica de Design Web e Arquitetura da Informação ofertada no segundo ano. Do qual, graças a Deus, fui aprovado em entrevista e tive uma experiência de 8 meses auxiliando o professor na disciplina.
                   </p>
                   <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
                     <p className='font-bold'>8 meses</p>
@@ -536,72 +548,72 @@ createRoot(document.getElementById('root')).render(
       </section>
 
       <section className='sec-depoimentos container mx-auto py-16'>
-        <div className="header-depoimentos flex justify-between items-end mb-12">
-            <div className="description-sec">
-              <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500 mb-2'>💬 Recomendações</h6>
-              <h2>Em depoimento</h2>
-            </div>
-            <div className="filter-praticas flex items-center gap-x-6 color-main-300">
-              <button className="flex items-center gap-x-2 hover-main-400 transition-ease-in py-4 px-5 border-main-300 rounded-2xl">
-                <i className="text-3xl/none fa-solid fa-chevron-left"></i>
-
-              </button>
-
-              <button className="flex items-center gap-x-2 hover-main-400 transition-ease-in py-4 px-5 border-main-300 rounded-2xl">
-                <i className="text-3xl/none fa-solid fa-chevron-right"></i>
-              </button>
-            </div>
+        <div className="header-depoimentos flex flex-wrap justify-between gap-y-4 mb-12">
+          <div className="description-sec">
+            <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500 mb-2'>💬 Recomendações</h6>
+            <h2>Em depoimento</h2>
           </div>
+          <div className="filter-praticas flex self-end items-center gap-x-6 color-main-300">
+            <button className="flex items-center gap-x-2 hover-main-400 transition-ease-in py-4 px-5 border-main-300 rounded-2xl">
+              <i className="text-3xl/none fa-solid fa-chevron-left"></i>
 
-          <div className="slide-depoimentos flex gap-x-6">
-            <blockquote className='bloco-depoimento w-1/3 border-main-300 p-4 rounded-2xl'>
-              <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
-              <p className='mb-4'>
-                <q>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lobortis lorem. Sed sollicitudin enim laoreet mi faucibus vulputate. Mauris quis risus iaculis, rhoncus leo et, condimentum orci. Integer cursus lorem sit amet molestie semper.
-                </q>
-              </p>
-              <figure className="autor flex items-center gap-x-4">
-                <img src="src/assets/imgs/Cesar.svg" alt="" />
-                <div className="info-autor">
-                  <h6>Cesimar Xavier</h6>
-                  <figcaption>Professor em Design</figcaption>
-                </div>
-              </figure>
-            </blockquote>
+            </button>
 
-            <blockquote className='bloco-depoimento w-1/3 border-main-300 p-4 rounded-2xl'>
-              <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
-              <p className='mb-4'>
-                <q>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lobortis lorem. Sed sollicitudin enim laoreet mi faucibus vulputate. Mauris quis risus iaculis, rhoncus leo et, condimentum orci. Integer cursus lorem sit amet molestie semper.
-                </q>
-              </p>
-              <figure className="autor flex items-center gap-x-4">
-                <img src="src/assets/imgs/Cesar.svg" alt="" />
-                <div className="info-autor">
-                  <h6>Cesimar Xavier</h6>
-                  <figcaption>Professor em Design</figcaption>
-                </div>
-              </figure>
-            </blockquote>
-
-            <blockquote className='bloco-depoimento w-1/3 border-main-300 p-4 rounded-2xl'>
-              <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
-              <p className='mb-4'>
-                <q>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lobortis lorem. Sed sollicitudin enim laoreet mi faucibus vulputate. Mauris quis risus iaculis, rhoncus leo et, condimentum orci. Integer cursus lorem sit amet molestie semper.
-                </q>
-              </p>
-              <figure className="autor flex items-center gap-x-4">
-                <img src="src/assets/imgs/Cesar.svg" alt="" />
-                <div className="info-autor">
-                  <h6>Cesimar Xavier</h6>
-                  <figcaption>Professor em Design</figcaption>
-                </div>
-              </figure>
-            </blockquote>
+            <button className="flex items-center gap-x-2 hover-main-400 transition-ease-in py-4 px-5 border-main-300 rounded-2xl">
+              <i className="text-3xl/none fa-solid fa-chevron-right"></i>
+            </button>
           </div>
+        </div>
+
+        <div className="slide-depoimentos flex py-2 gap-x-6">
+          <blockquote className='bloco-depoimento hover-main-400 transition-ease-in w-1/3 border-main-300 p-4 rounded-2xl'>
+            <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
+            <p className='mb-4'>
+              <q>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lobortis lorem. Sed sollicitudin enim laoreet mi faucibus vulputate. Mauris quis risus iaculis, rhoncus leo et, condimentum orci. Integer cursus lorem sit amet molestie semper.
+              </q>
+            </p>
+            <figure className="autor flex items-center gap-x-4">
+              <img src="./src/assets/imgs/Cesar.svg" alt="" />
+              <div className="info-autor">
+                <h6>Cesimar Xavier</h6>
+                <figcaption>Professor em Design</figcaption>
+              </div>
+            </figure>
+          </blockquote>
+
+          <blockquote className='bloco-depoimento hover-main-400 transition-ease-in w-1/3 border-main-300 p-4 rounded-2xl'>
+            <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
+            <p className='mb-4'>
+              <q>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lobortis lorem. Sed sollicitudin enim laoreet mi faucibus vulputate. Mauris quis risus iaculis, rhoncus leo et, condimentum orci. Integer cursus lorem sit amet molestie semper.
+              </q>
+            </p>
+            <figure className="autor flex items-center gap-x-4">
+              <img src="./src/assets/imgs/Cesar.svg" alt="" />
+              <div className="info-autor">
+                <h6>Cesimar Xavier</h6>
+                <figcaption>Professor em Design</figcaption>
+              </div>
+            </figure>
+          </blockquote>
+
+          <blockquote className='bloco-depoimento hover-main-400 transition-ease-in w-1/3 border-main-300 p-4 rounded-2xl'>
+            <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
+            <p className='mb-4'>
+              <q>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lobortis lorem. Sed sollicitudin enim laoreet mi faucibus vulputate. Mauris quis risus iaculis, rhoncus leo et, condimentum orci. Integer cursus lorem sit amet molestie semper.
+              </q>
+            </p>
+            <figure className="autor flex items-center gap-x-4">
+              <img src="./src/assets/imgs/Cesar.svg" alt="" />
+              <div className="info-autor">
+                <h6>Cesimar Xavier</h6>
+                <figcaption>Professor em Design</figcaption>
+              </div>
+            </figure>
+          </blockquote>
+        </div>
 
 
       </section>
@@ -612,16 +624,17 @@ createRoot(document.getElementById('root')).render(
           <h2 className=''>Vamos conversar!</h2>
         </div>
 
-        <div className="contact flex w-9/12 gap-x-6 color-main-300 mb-4">
-          <button className='border-main-300 w-6/12  flex items-center gap-x-2 hover-main-400 hover-color-100  transition-ease-in rounded-2xl py-3 px-8'>
+        <div className="contact-content flex flex-wrap justify-center w-full gap-6 color-main-300 mb-4">
+          <a href='https://api.whatsapp.com/send/?phone=5584991700480&text&type=phone_number&app_absent=0' target='_blank' className='btn-contact flex-1 border-main-300 w-6/12 flex items-center gap-x-2 hover-main-400 hover-color-100  transition-ease-in rounded-2xl py-3 px-8'>
             <i className="text-5xl fa-brands fa-whatsapp"></i>
-            <p className='w-full font-bold text-center fs-xlarge'>Vamos conversar</p>
-          </button>
-          <button className='border-main-300 w-6/12 relative flex items-center gap-x-1 hover-main-400 hover-color-100 transition-ease-in rounded-2xl py-3 px-8'>
-            <p className='w-full text-center fs-xlarge'><span className="font-bold">E-mail:</span> <span className='color-cod-300'>gabriel.pessoa.dev@gmail.com</span></p>
+            <p className='w-full text-contact font-bold text-center fs-xlarge'>Vamos conversar</p>
+          </a>
+          <a href='mailto:gabriel.pessoa.dev@gmail.com' target='_blank' className='btn-contact flex-1  border-main-300 w-6/12 flex flex-wrap items-center justify-center gap-2 hover-main-400 hover-color-100 transition-ease-in rounded-2xl py-5 px-4'>
+            <p className='text-contact text-center fs-xlarge'><span className="font-bold">E-mail:</span> <span className='color-cod-300'>gabriel.pessoa.dev@gmail.com</span></p>
             <i className="text-3xl/none fa-regular fa-paper-plane"></i>
-            <i className="absolute top-0 right-0 bg-main-500 p-1 rounded fa-regular fa-copy"></i>
-          </button>
+          </a>
+          <a className='btn-contact w-6/12 bg-main-500 color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in flex justify-center items-center py-5 fs-xlarge font-semibold' href="src/assets/imgs/CV - Gabriel Pessoa.pdf" download={'CV - Gabriel Pessoa'}>Baixar CV <i className="text-2xl/none ms-2 fa-regular fa-circle-down"></i></a>
+        
         </div>
 
         <a href='' className='fs-xlarge color-main-300 hover-color-100 transition-ease-in'><i className="text-4xl/none pe-2 align-middle fa-solid fa-arrow-up-long"></i>Voltar ao topo</a>
@@ -630,7 +643,8 @@ createRoot(document.getElementById('root')).render(
       </section>
 
     </main>
-
+    
     <Footer />
+    
   </StrictMode>,
 )
