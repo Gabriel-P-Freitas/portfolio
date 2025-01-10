@@ -31,8 +31,8 @@ main{
             width: 75px;
             height: 75px;
             .tecnologia{
-                animation: 3s infinite alternate-reverse slide-depoimentos;
-                @keyframes slide-depoimentos {
+                animation: 1.5s infinite alternate skills-icons;
+                @keyframes skills-icons {
                     from{
                         color: var(--main-300);
                     }

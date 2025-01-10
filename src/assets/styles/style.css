@@ -207,9 +207,9 @@ main .tecnologias-content .tecnologia-caption {
   height: 75px;
 }
 main .tecnologias-content .tecnologia-caption .tecnologia {
-  animation: 3s infinite alternate-reverse slide-depoimentos;
+  animation: 1.5s infinite alternate skills-icons;
 }
-@keyframes slide-depoimentos {
+@keyframes skills-icons {
   from {
     color: var(--main-300);
   }
