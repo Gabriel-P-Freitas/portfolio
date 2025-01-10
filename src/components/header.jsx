@@ -22,7 +22,7 @@ function menuToggle(){
     
     <header className="header-portfolio bg-main-500 py-3">
       <div className="header-content container mx-auto flex items-center justify-between">
-        <a className="min-w-max" href=""><img src="/src/assets/imgs/logo.svg" alt="" /></a>
+        <a className="min-w-max" href=""><img src="./src/assets/imgs/logo.svg" alt="" /></a>
         <nav className="nav-header">
           <ul className="desktop-menu flex items-center gap-x-6 transition-ease-in">
             <li><a className="header-link p-1 color-main-100" href="">Home</a></li>
