@@ -1008,10 +1008,6 @@ video {
   font-weight: 600;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -1034,6 +1030,7 @@ video {
   --cod-gray-50: #F6F6F6;
   --cod-gray-300: #B0B0B0;
   --cod-gray-400: #888888;
+  --cod-gray-900: #3D3D3D;
   --cod-gray-950: #090E16;
   --main-100: #7B4AE2;
   --main-200: #7B4AE2BF;
@@ -1292,6 +1289,18 @@ main .sec-contact .contact-content {
 
   main .slide-depoimentos blockquote.bloco-depoimento {
     min-width: 26.5rem;
+  }
+
+  main .slide-depoimentos::-webkit-scrollbar, main .list-videos::-webkit-scrollbar, main .list-praticas::-webkit-scrollbar {
+    background-color: var(--cod-gray-900);
+    border-radius: 8px;
+    height: 16px;
+  }
+
+  main .slide-depoimentos::-webkit-scrollbar-thumb, main .list-videos::-webkit-scrollbar-thumb, main .list-praticas::-webkit-scrollbar-thumb {
+    background-color: var(--main-300);
+    display: inline-block;
+    border-radius: 8px;
   }
 }
 

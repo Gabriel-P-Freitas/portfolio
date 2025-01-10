@@ -131,7 +131,7 @@ createRoot(document.getElementById('root')).render(
           </div>
         </div>
 
-        <ul className='list-praticas grid grid-cols-3 gap-6'>
+        <ul className='list-praticas py-4 grid grid-cols-3 gap-6'>
           <li className=''>
             <button className='card-pratica text-start hover-main-400 transition-ease-in flex flex-col justify-between h-96 p-6 border-main-300 rounded-2xl'>
               <div>
@@ -274,7 +274,7 @@ createRoot(document.getElementById('root')).render(
         <h2 className='mb-2'>Projetos em vídeos</h2>
         <p className='text-sec-project w-7/12 fs-xlarge mb-6'>Aqui são exibidos alguns videos curtos de projetos que tive o prazer de trabalhar, conquistar novas experiências e saberes. Alguns deles contei com excelentes equipes.</p>
 
-        <ul className='list-videos flex gap-x-6 mb-8'>
+        <ul className='list-videos py-4 flex gap-x-6 mb-8'>
           <li className='w-1/3'>
             <a className='card-video hover-main-400 transition-ease-in pb-4 border-main-300 rounded-2xl' href="">
               <figure className='relative mb-4'>

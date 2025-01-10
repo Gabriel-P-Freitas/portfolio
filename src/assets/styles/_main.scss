@@ -51,6 +51,7 @@ main{
         }
     }
     
+    
 
     @media screen and (min-width: 1280px) {
         
@@ -91,11 +92,16 @@ main{
                 min-width: 26.5rem;
             }
         }
-
-        .sec-contact{
-            .btn-contact{
-            }
-        }
+        .slide-depoimentos::-webkit-scrollbar, .list-videos::-webkit-scrollbar, .list-praticas::-webkit-scrollbar {
+            background-color: var(--cod-gray-900);
+            border-radius: 8px;
+            height: 16px;
+          }
+        .slide-depoimentos::-webkit-scrollbar-thumb, .list-videos::-webkit-scrollbar-thumb, .list-praticas::-webkit-scrollbar-thumb {
+            background-color: var(--main-300);
+            display: inline-block;
+            border-radius: 8px;
+          }
         
     }
 
