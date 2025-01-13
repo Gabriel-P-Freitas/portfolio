@@ -33,14 +33,14 @@ createRoot(document.getElementById('root')).render(
         </div>
         
         <picture className='avatar-gabriel'>
-          <source srcSet='./src/assets/imgs/avatar-mobile.svg' media='(max-width: 576px)'/>
-          <source srcSet='./src/assets/imgs/avatar-tablet.svg' media='(max-width: 1280px)'/>
-          <img src="./src/assets/imgs/avatar-desktop.svg" alt="Avatar Gabriel" />
+          <source srcSet='./public/imgs/avatar-mobile.svg' media='(max-width: 576px)'/>
+          <source srcSet='./public/imgs/avatar-tablet.svg' media='(max-width: 1280px)'/>
+          <img src="./public/imgs/avatar-desktop.svg" alt="Avatar Gabriel" />
         </picture>
 
         <div className="buttons-contact flex flex-col gap-4 items-end">
           <button className='bg-main-500 w-max rounded-2xl'>
-            <a className='color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in px-10 flex items-center py-3' href="src/assets/imgs/CV - Gabriel Pessoa.pdf" download={'CV - Gabriel Pessoa'}>Baixar CV <i className="text-xl/none ms-2 fa-regular fa-circle-down"></i></a>
+            <a className='color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in px-10 flex items-center py-3' href="public/imgs/CV - Gabriel Pessoa.pdf" download={'CV - Gabriel Pessoa.pdf'}>Baixar CV <i className="text-xl/none ms-2 fa-regular fa-circle-down"></i></a>
           </button>
           <button className='border-main-300 w-max rounded-2xl'>
             <a className='color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in flex items-center px-4 py-3' href="https://api.whatsapp.com/send/?phone=5584991700480&text&type=phone_number&app_absent=0" target='_blank'><i className="text-2xl/none me-2 fa-brands fa-whatsapp"></i> Vamos conversar</a>
@@ -53,8 +53,8 @@ createRoot(document.getElementById('root')).render(
       <section className='sec-sobre-mim bg-main-500 py-16'>
         <div className="sobre-mim-content container mx-auto flex items-center gap-6">
           <picture>
-            <source srcSet='src/assets/imgs/perfil-responsive.svg' media="(max-width: 992px)" />
-            <img src="./src/assets/imgs/perfil-desktop.svg" alt="Meu perfil" />
+            <source srcSet='public/imgs/perfil-responsive.svg' media="(max-width: 992px)" />
+            <img src="./public/imgs/perfil-desktop.svg" alt="Meu perfil" />
           </picture>
           
           <div className="sobre-mim w-7/12 flex flex-col gap-y-4">
@@ -87,13 +87,13 @@ createRoot(document.getElementById('root')).render(
       <section className='py-16 border-end-main-300'>
         <div className="my-experience container mx-auto flex flex-wrap justify-center gap-6">
           <button className='border-main-300 w-80 rounded-2xl px-1 py-6 flex flex-col items-center gap-y-2'>
-            <img src="./src/assets/imgs/codeIcon.svg" alt="Ícone de código" />
+            <img src="./public/imgs/codeIcon.svg" alt="Ícone de código" />
             <p>3 anos de</p>
             <h5>Programação</h5>
           </button>
 
           <button className='border-main-300 w-80 rounded-2xl px-1 py-6 flex flex-col items-center gap-y-2'>
-            <img src="./src/assets/imgs/projectsIcon.svg" alt="Ícone Kanban" />
+            <img src="./public/imgs/projectsIcon.svg" alt="Ícone Kanban" />
             <p>2 anos de</p>
             <h5>Expêriencia Profissional</h5>
           </button>
@@ -120,12 +120,12 @@ createRoot(document.getElementById('root')).render(
           </div>
           <div className="filter-praticas flex flex-wrap items-center gap-x-8 gap-y-6">
             <button className="flex items-center gap-x-2 hover-main-400 transition-ease-in py-3 px-6 border-main-300 rounded-2xl">
-              <img src="./src/assets/imgs/projects.svg" alt="" />
+              <img src="./public/imgs/projects.svg" alt="" />
               <h6 className="font-semibold color-main-300">Projetos</h6>
             </button>
 
             <button className="flex items-center gap-x-2 hover-main-400 transition-ease-in py-3 px-6 border-main-300 rounded-2xl">
-              <img src="./src/assets/imgs/praticasIcon.svg" alt="" />
+              <img src="./public/imgs/praticasIcon.svg" alt="" />
               <h6 className="font-semibold color-main-300">Práticas</h6>
             </button>
           </div>
@@ -145,7 +145,7 @@ createRoot(document.getElementById('root')).render(
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="./src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="./public/imgs/typograph-pratica.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
                   <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
                   <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
@@ -167,7 +167,7 @@ createRoot(document.getElementById('root')).render(
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="./src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="./public/imgs/typograph-pratica.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
                   <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
                   <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
@@ -189,7 +189,7 @@ createRoot(document.getElementById('root')).render(
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="./src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="./public/imgs/typograph-pratica.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
                   <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
                   <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
@@ -211,7 +211,7 @@ createRoot(document.getElementById('root')).render(
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="./src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="./public/imgs/typograph-pratica.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
                   <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
                   <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
@@ -233,7 +233,7 @@ createRoot(document.getElementById('root')).render(
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="./src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="./public/imgs/typograph-pratica.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
                   <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
                   <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
@@ -255,7 +255,7 @@ createRoot(document.getElementById('root')).render(
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="./src/assets/imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="./public/imgs/typograph-pratica.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
                   <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
                   <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
@@ -278,7 +278,7 @@ createRoot(document.getElementById('root')).render(
           <li className='w-1/3'>
             <a className='card-video hover-main-400 transition-ease-in pb-4 border-main-300 rounded-2xl' href="">
               <figure className='relative mb-4'>
-                <img className='rounded-t-2xl' src="./src/assets/imgs/portfolio-video.svg" alt="portfolio" />
+                <img className='rounded-t-2xl' src="./public/imgs/portfolio-video.svg" alt="portfolio" />
                 <span className='absolute center-x-y bg-main-300 px-5 py-4 rounded-full'><i className="text-2xl/none color-cod-50 fa-solid fa-play"></i></span>
               </figure>
               <div className="content-video px-4">
@@ -300,7 +300,7 @@ createRoot(document.getElementById('root')).render(
           <li className='w-1/3'>
             <a className='card-video hover-main-400 transition-ease-in pb-4 border-main-300 rounded-2xl' href="">
               <figure className='relative mb-4'>
-                <img className='rounded-t-2xl' src="./src/assets/imgs/portfolio-video.svg" alt="portfolio" />
+                <img className='rounded-t-2xl' src="./public/imgs/portfolio-video.svg" alt="portfolio" />
                 <span className='absolute center-x-y bg-main-300 px-5 py-4 rounded-full'><i className="text-2xl/none color-cod-50 fa-solid fa-play"></i></span>
               </figure>
               <div className="content-video px-4">
@@ -322,7 +322,7 @@ createRoot(document.getElementById('root')).render(
           <li className='w-1/3'>
             <a className='card-video hover-main-400 transition-ease-in pb-4 border-main-300 rounded-2xl' href="">
               <figure className='relative mb-4'>
-                <img className='rounded-t-2xl' src="./src/assets/imgs/portfolio-video.svg" alt="portfolio" />
+                <img className='rounded-t-2xl' src="./public/imgs/portfolio-video.svg" alt="portfolio" />
                 <span className='absolute center-x-y bg-main-300 px-5 py-4 rounded-full'><i className="text-2xl/none color-cod-50 fa-solid fa-play"></i></span>
               </figure>
               <div className="content-video px-4">
@@ -574,7 +574,7 @@ createRoot(document.getElementById('root')).render(
               </q>
             </p>
             <figure className="autor flex items-center gap-x-4">
-              <img src="./src/assets/imgs/Cesar.svg" alt="" />
+              <img src="./public/imgs/Cesar.svg" alt="" />
               <div className="info-autor">
                 <h6>Cesimar Xavier</h6>
                 <figcaption>Professor em Design</figcaption>
@@ -590,7 +590,7 @@ createRoot(document.getElementById('root')).render(
               </q>
             </p>
             <figure className="autor flex items-center gap-x-4">
-              <img src="./src/assets/imgs/Cesar.svg" alt="" />
+              <img src="./public/imgs/Cesar.svg" alt="" />
               <div className="info-autor">
                 <h6>Cesimar Xavier</h6>
                 <figcaption>Professor em Design</figcaption>
@@ -606,7 +606,7 @@ createRoot(document.getElementById('root')).render(
               </q>
             </p>
             <figure className="autor flex items-center gap-x-4">
-              <img src="./src/assets/imgs/Cesar.svg" alt="" />
+              <img src="./public/imgs/Cesar.svg" alt="" />
               <div className="info-autor">
                 <h6>Cesimar Xavier</h6>
                 <figcaption>Professor em Design</figcaption>
@@ -633,7 +633,7 @@ createRoot(document.getElementById('root')).render(
             <p className='text-contact text-center fs-xlarge'><span className="font-bold">E-mail:</span> <span className='color-cod-300'>gabriel.pessoa.dev@gmail.com</span></p>
             <i className="text-3xl/none fa-regular fa-paper-plane"></i>
           </a>
-          <a className='btn-contact w-6/12 bg-main-500 color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in flex justify-center items-center py-5 fs-xlarge font-semibold' href="src/assets/imgs/CV - Gabriel Pessoa.pdf" download={'CV - Gabriel Pessoa'}>Baixar CV <i className="text-2xl/none ms-2 fa-regular fa-circle-down"></i></a>
+          <a className='btn-contact w-6/12 bg-main-500 color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in flex justify-center items-center py-5 fs-xlarge font-semibold' href="public/imgs/CV - Gabriel Pessoa.pdf" download={'CV - Gabriel Pessoa.pdf'}>Baixar CV <i className="text-2xl/none ms-2 fa-regular fa-circle-down"></i></a>
         
         </div>
 
