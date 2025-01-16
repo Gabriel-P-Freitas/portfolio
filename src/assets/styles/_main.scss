@@ -31,7 +31,7 @@ main{
             width: 75px;
             height: 75px;
             .tecnologia{
-                animation: 1.5s infinite alternate skills-icons;
+                animation: 2s infinite alternate skills-icons;
                 @keyframes skills-icons {
                     from{
                         color: var(--main-300);
@@ -92,12 +92,12 @@ main{
                 min-width: 26.5rem;
             }
         }
-        .slide-depoimentos::-webkit-scrollbar, .list-videos::-webkit-scrollbar, .list-praticas::-webkit-scrollbar {
+        .slide-depoimentos::-webkit-scrollbar, .list-videos::-webkit-scrollbar, .list-praticas::-webkit-scrollbar, .cards-trajetoria::-webkit-scrollbar {
             background-color: var(--cod-gray-900);
             border-radius: 8px;
-            height: 16px;
+            height: 12px;
           }
-        .slide-depoimentos::-webkit-scrollbar-thumb, .list-videos::-webkit-scrollbar-thumb, .list-praticas::-webkit-scrollbar-thumb {
+        .slide-depoimentos::-webkit-scrollbar-thumb, .list-videos::-webkit-scrollbar-thumb, .list-praticas::-webkit-scrollbar-thumb, .cards-trajetoria::-webkit-scrollbar-thumb {
             background-color: var(--main-300);
             display: inline-block;
             border-radius: 8px;

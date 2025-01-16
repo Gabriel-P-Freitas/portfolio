@@ -142,6 +142,7 @@ createRoot(document.getElementById('root')).render(
                   <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">CSS</dd>
                   <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">SCSS</dd>
                   <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">BootStrap</dd>
+                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">Git e GitHub</dd>
                 </dl>
               </div>
               <div className="bottom-pratica">
@@ -157,113 +158,25 @@ createRoot(document.getElementById('root')).render(
           <li className=''>
             <button className='card-pratica text-start hover-main-400 transition-ease-in flex flex-col justify-between h-96 p-6 border-main-300 rounded-2xl'>
               <div>
-                <h6 className="mb-4">TYPOGRAPH</h6>
-                <p className="mb-2">A prática Typograph foi o meu primeiro site responsivo, em que pude realmente aprender e entender o uso dos medias queries nas CSS e o uso do valor "clamp()" para tamanhos flexíveis.</p>
+                <h6 className="mb-4">StructBoost</h6>
+                <p className="mb-2">O StructBoost foi um projeto feito através do curso Introdução ao FrontEnd ofertado pela CodeBoost. Tive o privilégio de me aprofundar tanto no HTML quanto nas CSS.</p>
                 <dl className="flex gap-2 color-main-100">
                   <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">HTML</dd>
                   <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">CSS</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">SCSS</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">BootStrap</dd>
+                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">Git e GitHub</dd>
                 </dl>
               </div>
               <div className="bottom-pratica">
-                <img className='mb-4' src="././imgs/typograph-pratica.svg" alt="image project or pratica" />
+                <img className='mb-4' src="././imgs/structboost-project.svg" alt="image project or pratica" />
                 <nav className="flex items-center gap-x-4">
-                  <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
-                  <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
+                  <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/StructCode-CodeBoost" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
+                  <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/W6LAZ1sDyDYS1nakb5vVRa/Struct-Boost-%7C-Codeboost?node-id=1-12&t=TpUOHHOhLBgNdT5z-1" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
                 </nav>
               </div>
 
             </button>
           </li>
-          <li className=''>
-            <button className='card-pratica text-start hover-main-400 transition-ease-in flex flex-col justify-between h-96 p-6 border-main-300 rounded-2xl'>
-              <div>
-                <h6 className="mb-4">TYPOGRAPH</h6>
-                <p className="mb-2">A prática Typograph foi o meu primeiro site responsivo, em que pude realmente aprender e entender o uso dos medias queries nas CSS e o uso do valor "clamp()" para tamanhos flexíveis.</p>
-                <dl className="flex gap-2 color-main-100">
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">HTML</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">CSS</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">SCSS</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">BootStrap</dd>
-                </dl>
-              </div>
-              <div className="bottom-pratica">
-                <img className='mb-4' src="././imgs/typograph-pratica.svg" alt="image project or pratica" />
-                <nav className="flex items-center gap-x-4">
-                  <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
-                  <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
-                </nav>
-              </div>
-
-            </button>
-          </li>
-          <li className=''>
-            <button className='card-pratica text-start hover-main-400 transition-ease-in flex flex-col justify-between h-96 p-6 border-main-300 rounded-2xl'>
-              <div>
-                <h6 className="mb-4">TYPOGRAPH</h6>
-                <p className="mb-2">A prática Typograph foi o meu primeiro site responsivo, em que pude realmente aprender e entender o uso dos medias queries nas CSS e o uso do valor "clamp()" para tamanhos flexíveis.</p>
-                <dl className="flex gap-2 color-main-100">
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">HTML</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">CSS</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">SCSS</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">BootStrap</dd>
-                </dl>
-              </div>
-              <div className="bottom-pratica">
-                <img className='mb-4' src="././imgs/typograph-pratica.svg" alt="image project or pratica" />
-                <nav className="flex items-center gap-x-4">
-                  <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
-                  <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
-                </nav>
-              </div>
-
-            </button>
-          </li>
-          <li className=''>
-            <button className='card-pratica text-start hover-main-400 transition-ease-in flex flex-col justify-between h-96 p-6 border-main-300 rounded-2xl'>
-              <div>
-                <h6 className="mb-4">TYPOGRAPH</h6>
-                <p className="mb-2">A prática Typograph foi o meu primeiro site responsivo, em que pude realmente aprender e entender o uso dos medias queries nas CSS e o uso do valor "clamp()" para tamanhos flexíveis.</p>
-                <dl className="flex gap-2 color-main-100">
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">HTML</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">CSS</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">SCSS</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">BootStrap</dd>
-                </dl>
-              </div>
-              <div className="bottom-pratica">
-                <img className='mb-4' src="././imgs/typograph-pratica.svg" alt="image project or pratica" />
-                <nav className="flex items-center gap-x-4">
-                  <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
-                  <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
-                </nav>
-              </div>
-
-            </button>
-          </li>
-          <li className=''>
-            <button className='card-pratica text-start hover-main-400 transition-ease-in flex flex-col justify-between h-96 p-6 border-main-300 rounded-2xl'>
-              <div>
-                <h6 className="mb-4">TYPOGRAPH</h6>
-                <p className="mb-2">A prática Typograph foi o meu primeiro site responsivo, em que pude realmente aprender e entender o uso dos medias queries nas CSS e o uso do valor "clamp()" para tamanhos flexíveis.</p>
-                <dl className="flex gap-2 color-main-100">
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">HTML</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">CSS</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">SCSS</dd>
-                  <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">BootStrap</dd>
-                </dl>
-              </div>
-              <div className="bottom-pratica">
-                <img className='mb-4' src="././imgs/typograph-pratica.svg" alt="image project or pratica" />
-                <nav className="flex items-center gap-x-4">
-                  <a className='anchor-projects github-anchor color-main-300' href="https://github.com/Gabriel-P-Freitas/TYPOGRAPH" target='_blank'><i className="text-5xl align-baseline transition-ease-in fa-brands fa-github"></i></a>
-                  <a className='anchor-projects figma-anchor bg-main-400 px-2 py-1 color-main-200 rounded-full transition-ease-in' href="https://www.figma.com/design/8HL0mnmzdKAiNl4RDDiqad/Tipograph?node-id=1-113&t=TTbyZs7mUX5ZITNw-0" target='_blank'><i className="w-8 h-8 align-middle text-center fa-brands fa-figma"></i></a>
-                </nav>
-              </div>
-
-            </button>
-          </li>
+          
         </ul>
 
 
@@ -283,54 +196,10 @@ createRoot(document.getElementById('root')).render(
               </figure>
               <div className="content-video px-4">
                 <div className="title-video flex justify-between items-center mb-4">
-                  <h6>Portfolio</h6>
+                  <h6>Portfólio</h6>
                   <dl className='flex gap-x-2 color-main-100'>
-                    <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">Vue JS</dd>
-                    <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">Node JS</dd>
-                  </dl>
-                </div>
-                <div className="description-video flex justify-between items-center fs-large">
-                  <p>Como foi feito meu portfólio</p>
-                  <button className=''>Assistir<i className="color-main-300 ps-2 fa-solid fa-play"></i></button>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <li className='w-1/3'>
-            <a className='card-video hover-main-400 transition-ease-in pb-4 border-main-300 rounded-2xl' href="">
-              <figure className='relative mb-4'>
-                <img className='rounded-t-2xl' src="././imgs/portfolio-video.svg" alt="portfolio" />
-                <span className='absolute center-x-y bg-main-300 px-5 py-4 rounded-full'><i className="text-2xl/none color-cod-50 fa-solid fa-play"></i></span>
-              </figure>
-              <div className="content-video px-4">
-                <div className="title-video flex justify-between items-center mb-4">
-                  <h6>Portfolio</h6>
-                  <dl className='flex gap-x-2 color-main-100'>
-                    <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">Vue JS</dd>
-                    <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">Node JS</dd>
-                  </dl>
-                </div>
-                <div className="description-video flex justify-between items-center fs-large">
-                  <p>Como foi feito meu portfólio</p>
-                  <button className=''>Assistir<i className="color-main-300 ps-2 fa-solid fa-play"></i></button>
-                </div>
-              </div>
-            </a>
-          </li>
-
-          <li className='w-1/3'>
-            <a className='card-video hover-main-400 transition-ease-in pb-4 border-main-300 rounded-2xl' href="">
-              <figure className='relative mb-4'>
-                <img className='rounded-t-2xl' src="././imgs/portfolio-video.svg" alt="portfolio" />
-                <span className='absolute center-x-y bg-main-300 px-5 py-4 rounded-full'><i className="text-2xl/none color-cod-50 fa-solid fa-play"></i></span>
-              </figure>
-              <div className="content-video px-4">
-                <div className="title-video flex justify-between items-center mb-4">
-                  <h6>Portfolio</h6>
-                  <dl className='flex gap-x-2 color-main-100'>
-                    <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">Vue JS</dd>
-                    <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">Node JS</dd>
+                    <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">React JS</dd>
+                    <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">CSS Responsivo</dd>
                   </dl>
                 </div>
                 <div className="description-video flex justify-between items-center fs-large">
@@ -378,7 +247,7 @@ createRoot(document.getElementById('root')).render(
           </div>
 
           <div className="tech-recents">
-            <h5 className='color-cod-300 font-normal raleway mb-4'>Tecnologias que uso no dia a dia</h5>
+            <h5 className='color-cod-300 font-normal raleway mb-4'>Outras tecnologias com que já realizei projetos</h5>
             <figure className='tecnologias-content flex flex-wrap gap-12 justify-center'>
               <figcaption className="tecnologia-caption"><i className="tecnologia text-6xl fa-brands fa-node"></i></figcaption>
               
@@ -418,7 +287,7 @@ createRoot(document.getElementById('root')).render(
               <h5 className='raleway color-cod-300 font-normal'>2021 · Atualmente</h5>
             </div>
 
-            <ul className='cards-trajetoria flex flex-col gap-6'>
+            <ul className='cards-trajetoria py-2 flex flex-col gap-6'>
               <li className='card-trajetoria'>
                 <article className='p-4 border-main-300 hover-main-400 transition-ease-in bg-main-500 rounded-2xl'>
                   <header className="mb-2">
@@ -492,7 +361,7 @@ createRoot(document.getElementById('root')).render(
               <h5 className='raleway color-cod-300 font-normal'>2023 · Atualmente</h5>
             </div>
 
-            <ul className='cards-trajetoria flex flex-col gap-6'>
+            <ul className='cards-trajetoria py-2 flex flex-col gap-6'>
               <li className='card-trajetoria'>
                 <article className='p-4 hover-main-400 transition-ease-in border-main-300 bg-main-500 rounded-2xl'>
                   <header className="mb-2">
@@ -547,7 +416,7 @@ createRoot(document.getElementById('root')).render(
 
       </section>
 
-      <section className='sec-depoimentos container mx-auto py-16'>
+      <section className='sec-depoimentos container mx-auto py-16 '>
         <div className="header-depoimentos flex flex-wrap justify-between gap-y-4 mb-12">
           <div className="description-sec">
             <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500 mb-2'>💬 Recomendações</h6>
@@ -573,45 +442,15 @@ createRoot(document.getElementById('root')).render(
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lobortis lorem. Sed sollicitudin enim laoreet mi faucibus vulputate. Mauris quis risus iaculis, rhoncus leo et, condimentum orci. Integer cursus lorem sit amet molestie semper.
               </q>
             </p>
-            <figure className="autor flex items-center gap-x-4">
-              <img src="././imgs/Cesar.svg" alt="" />
-              <div className="info-autor">
-                <h6>Cesimar Xavier</h6>
-                <figcaption>Professor em Design</figcaption>
-              </div>
-            </figure>
-          </blockquote>
-
-          <blockquote className='bloco-depoimento hover-main-400 transition-ease-in w-1/3 border-main-300 p-4 rounded-2xl'>
-            <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
-            <p className='mb-4'>
-              <q>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lobortis lorem. Sed sollicitudin enim laoreet mi faucibus vulputate. Mauris quis risus iaculis, rhoncus leo et, condimentum orci. Integer cursus lorem sit amet molestie semper.
-              </q>
-            </p>
-            <figure className="autor flex items-center gap-x-4">
-              <img src="././imgs/Cesar.svg" alt="" />
-              <div className="info-autor">
-                <h6>Cesimar Xavier</h6>
-                <figcaption>Professor em Design</figcaption>
-              </div>
-            </figure>
-          </blockquote>
-
-          <blockquote className='bloco-depoimento hover-main-400 transition-ease-in w-1/3 border-main-300 p-4 rounded-2xl'>
-            <i className="text-3xl/none color-main-300 fa-solid fa-quote-right mb-2"></i>
-            <p className='mb-4'>
-              <q>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget lobortis lorem. Sed sollicitudin enim laoreet mi faucibus vulputate. Mauris quis risus iaculis, rhoncus leo et, condimentum orci. Integer cursus lorem sit amet molestie semper.
-              </q>
-            </p>
-            <figure className="autor flex items-center gap-x-4">
-              <img src="././imgs/Cesar.svg" alt="" />
-              <div className="info-autor">
-                <h6>Cesimar Xavier</h6>
-                <figcaption>Professor em Design</figcaption>
-              </div>
-            </figure>
+            <a href="">
+              <figure className="autor flex items-center gap-x-4">
+                <img src="././imgs/Cesar.svg" alt="" />
+                <div className="info-autor">
+                  <h6>Cesimar Xavier</h6>
+                  <figcaption className='color-main-300 font-medium'>Professor em Design</figcaption>
+                </div>
+              </figure>
+            </a>
           </blockquote>
         </div>
 

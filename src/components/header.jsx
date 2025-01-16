@@ -32,7 +32,6 @@ function menuToggle(){
             <li><a className="header-link p-1" href="">Carreira</a></li>
             <li><a className="header-link p-1" href="">Recomendações</a></li>
             <li><a className="header-link p-1" href="">Contato</a></li>
-            
           </ul>
           
         </nav>
