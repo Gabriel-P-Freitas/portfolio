@@ -16,4 +16,5 @@
 - Jira (SCRUM)
 
 Site Portfólio - https://gabriel-pessoa-dev.netlify.app/
+
 Linkedin - https://www.linkedin.com/in/gabriel-pessoa-27239427b/
