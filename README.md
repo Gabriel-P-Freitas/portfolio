@@ -1,8 +1,19 @@
-# React + Vite
+# Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![portfólio-cover](https://github.com/user-attachments/assets/dfaceeac-ba99-464b-96bd-6473705c6907)
 
-Currently, two official plugins are available:
+### Este é o meu portfólio, no qual você poderá conhecer mais sobre mim, projetos, carreira, skills, depoimentos e contatos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tecnologias trabalhadas para o desenvolvimento:
+- HTML
+- CSS Responsivo
+- SCSS
+- TailwindCSS
+- JavaScript
+- React.js
+- Git e GitHub
+- Figma
+- Jira (SCRUM)
+
+Site Portfólio - https://gabriel-pessoa-dev.netlify.app/
+Linkedin - https://www.linkedin.com/in/gabriel-pessoa-27239427b/
