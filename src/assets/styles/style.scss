@@ -116,6 +116,14 @@ span, a, source{
     color: var(--main-100);
 }
 
+.social-links:hover{
+    color: var(--main-200);
+}
+
+.separator{
+    height: 1px;
+}
+
 @import '_header.scss';
 @import '_main.scss';
 @import '_footer.scss';

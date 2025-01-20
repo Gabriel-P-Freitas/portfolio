@@ -159,6 +159,14 @@ span, a, source {
   color: var(--main-100);
 }
 
+.social-links:hover {
+  color: var(--main-200);
+}
+
+.separator {
+  height: 1px;
+}
+
 header.header-portfolio a.header-link {
   border-bottom: 1px solid transparent;
   transition: all 0.3s ease-in;
@@ -349,12 +357,4 @@ main .sec-contact .contact-content {
   footer.footer-portfolio .content-footer .copyright-text {
     order: 3;
   }
-}
-
-.social-links:hover {
-  color: var(--main-200);
-}
-
-.separator {
-  height: 1px;
 }/*# sourceMappingURL=style.css.map */

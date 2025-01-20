@@ -3,7 +3,7 @@ function Footer() {
     return (
       <footer className="footer-portfolio bg-main-500 py-6">
         <div className="container mx-auto content-footer gap-y-6 flex items-center justify-between relative">
-          <p className="copyright-text flex-auto">Copyright © Gabriel Pessoa · 2024</p>
+          <p className="copyright-text flex-auto">Copyright © Gabriel Pessoa · 2025</p>
           <div className="content-mobile flex items-center justify-between ">
             <img className="logo-footer absolute center-x" src="./imgs/logo.svg" alt="" />
             <ul className="flex gap-x-4 items-center justify-self-start">
