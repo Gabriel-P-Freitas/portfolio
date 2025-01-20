@@ -15,6 +15,6 @@
 - Figma
 - Jira (SCRUM)
 
-Site Portfólio - https://gabriel-pessoa-dev.netlify.app/
-
-<a href="https://www.linkedin.com/in/gabriel-pessoa-27239427b/" target="_blank">Linkedin</a>
+ - 
+<a target='_blank' href="https://gabriel-pessoa-dev.netlify.app/">Site Portfólio</a>
+<a target='_blank' href="https://www.linkedin.com/in/gabriel-pessoa-27239427b/">Linkedin</a>
