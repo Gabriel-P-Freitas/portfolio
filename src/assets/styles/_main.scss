@@ -79,17 +79,17 @@ main{
 
         .sec-videos{
             .list-videos{
-                overflow-x: scroll;
                 li{
                     min-width: 26.5rem;
                 }
             }
         }
 
-        .slide-depoimentos{
-            overflow-x: scroll;
-            blockquote.bloco-depoimento{
-                min-width: 26.5rem;
+        .sec-depoimentos{
+            .slide-depoimentos{
+                blockquote.bloco-depoimento{
+                    min-width: 26.5rem;
+                }
             }
         }
         .slide-depoimentos::-webkit-scrollbar, .list-videos::-webkit-scrollbar, .list-praticas::-webkit-scrollbar, .cards-trajetoria::-webkit-scrollbar {
@@ -218,6 +218,18 @@ main{
                 i:nth-child(2){
                     display: none !important;
                 }
+            }
+        }
+
+        .sec-videos{
+            .list-videos{
+                overflow-x: scroll;
+            }
+        }
+
+        .sec-depoimentos{
+            .slide-depoimentos{
+                overflow-x: scroll;
             }
         }
 

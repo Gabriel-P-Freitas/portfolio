@@ -239,16 +239,10 @@ main .sec-contact .contact-content {
   main .sec-praticas-projetos .list-praticas {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  main .sec-videos .list-videos {
-    overflow-x: scroll;
-  }
   main .sec-videos .list-videos li {
     min-width: 26.5rem;
   }
-  main .slide-depoimentos {
-    overflow-x: scroll;
-  }
-  main .slide-depoimentos blockquote.bloco-depoimento {
+  main .sec-depoimentos .slide-depoimentos blockquote.bloco-depoimento {
     min-width: 26.5rem;
   }
   main .slide-depoimentos::-webkit-scrollbar, main .list-videos::-webkit-scrollbar, main .list-praticas::-webkit-scrollbar, main .cards-trajetoria::-webkit-scrollbar {
@@ -336,6 +330,12 @@ main .sec-contact .contact-content {
   }
   main .sec-contact .btn-contact i:nth-child(2) {
     display: none !important;
+  }
+  main .sec-videos .list-videos {
+    overflow-x: scroll;
+  }
+  main .sec-depoimentos .slide-depoimentos {
+    overflow-x: scroll;
   }
 }
 

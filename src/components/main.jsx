@@ -42,19 +42,19 @@ function Main(){
                     <h2>Gabriel Pessoa</h2>
                     <dl className='flex flex-col gap-y-3'>
                     <dd>
-                        <p className='fs-large'>👋 Me chamo Gabriel Pessoa de Queiroz Freitas, mas pode me chamar apenas de Gabriel. Prazer!</p>
+                        <p className='fs-large'>👋 Olá, meu nome é Gabriel Pessoa de Queiroz Freitas, mas pode me chamar apenas de Gabriel. Prazer!</p>
                     </dd>
                     <dd>
-                        <p className='fs-large'>👨‍💻 Há mais de 3 anos desenvolvo interfaces com JavaScript, CSS e HTML.</p>
+                        <p className='fs-large'>👨‍💻 Há mais de 3 anos desenvolvo interfaces com JavaScript, CSS, HTML, Python, Flask...</p>
                     </dd>
                     <dd>
-                        <p className='fs-large'>🎓 Cursando o último período do curso Informática para Internet integrado ao ensino médio no Instituto Federal de Ciências e Tecnologia do Rio Grade do Norte (IFRN).</p>
+                        <p className='fs-large'>🎓 Sou formado no ensino médio integrado ao curso Informática para Internet ofertado pelo Instituto Federal de Ciências e Tecnologia do Rio Grade do Norte (IFRN). Com duração de 4 anos e uma carga horária total de 3995 horas.</p>
                     </dd>
                     <dd>
                         <p className='fs-large'>💡 Interesses em desenvolvimento Front-end com JavaScript, React e TailwindCSS.</p>
                     </dd>
                     <dd>
-                        <p className='fs-large'>🚀 Buscando ser um pouquinho melhor do que ontem todos dias.</p>
+                        <p className='fs-large'>🚀 Caminhando calmamente e incessantemente a cada dia. Buscando ser um pouquinho melhor do que fui ontem.</p>
                     </dd>
                     </dl>
 
@@ -68,7 +68,7 @@ function Main(){
                 <div className="my-experience container mx-auto flex flex-wrap justify-center gap-6">
                 <button className='border-main-300 w-80 rounded-2xl px-1 py-6 flex flex-col items-center gap-y-2'>
                     <img src="././imgs/codeIcon.svg" alt="Ícone de código" />
-                    <p>3 anos de</p>
+                    <p>4 anos de</p>
                     <h5>Programação</h5>
                 </button>
 
@@ -118,11 +118,11 @@ function Main(){
                         <h6 className="mb-4">TYPOGRAPH</h6>
                         <p className="mb-2">A prática Typograph foi o meu primeiro site responsivo, em que pude realmente aprender e entender o uso dos medias queries nas CSS e o uso do valor "clamp()" para tamanhos flexíveis.</p>
                         <dl className="flex gap-2 color-main-100">
-                        <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">HTML</dd>
-                        <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">CSS</dd>
-                        <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">SCSS</dd>
-                        <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">BootStrap</dd>
-                        <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">Git e GitHub</dd>
+                            <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">HTML</dd>
+                            <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">CSS</dd>
+                            <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">SCSS</dd>
+                            <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">BootStrap</dd>
+                            <dd className="fs-xsmall w-max font-extrabold bg-main-500 py-1 px-2 rounded">Git e GitHub</dd>
                         </dl>
                     </div>
                     <div className="bottom-pratica">
@@ -198,7 +198,7 @@ function Main(){
             <section className='sec-skills py-16 bg-main-500'>
                 <div className="skills-content container mx-auto flex flex-col items-center gap-y-12 text-center">
                 <div className="header-skills">
-                    <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500 mb-6 mx-auto'>🧑‍💻 Skills · Experiências</h6>
+                    <h6 className='sec-title py-3 px-6 color-main-100 w-max rounded-2xl bg-main-500 mb-6 mx-auto'>👨‍💻 Skills · Habilidades</h6>
                     <h2 className=''>Tecnologias e habilidades</h2>
                 </div>
 
@@ -274,7 +274,7 @@ function Main(){
                             <h6 className='mb-2'>Capacitação em Sistemas Embarcados</h6>
                         </header>
                         <p className='mb-4'>
-                            O curso é alinhado ao eixo tecnológico de Informação e Comunicação. O curso visa atender as necessidades das áreas de Informática ou Engenharias à programação e manutenção de sistemas embarcados com tecnologias de Internet das Coisas (IoT), permitindo a criação de soluções inovadoras. Alguns objetivos específicos do curso são: <br />
+                            Faço o curso de Capacitação em Sistemas Embarcados, o qual é alinhado ao eixo tecnológico de Informação e Comunicação. O curso visa atender as necessidades das áreas de Informática ou Engenharias à programação e manutenção de sistemas embarcados com tecnologias de Internet das Coisas (IoT), permitindo a criação de soluções inovadoras. Alguns objetivos específicos do curso são: <br />
                             • Preparar os/às estudantes para prestar suporte técnico, manutenção e outros serviços em dispositivos eletrônicos dedicados, contribuindo para o avanço tecnológico e o crescimento da indústria de sistemas embarcados. <br />
                             • Capacitar os/às estudantes para integrar sistemas embarcados com tecnologias de Internet das Coisas (IoT), permitindo a criação de soluções inovadoras que conectem dispositivos e possibilitem a automação e o monitoramento em tempo real, atendendo às demandas emergentes de diversos setores da indústria.
                         </p>
@@ -286,14 +286,14 @@ function Main(){
                     </li>
 
                     <li className='card-trajetoria'>
-                        <article className='p-4 hover-main-400 transition-ease-in border-main-300 bg-main-500 rounded-2xl'>
+                        <article className='p-4 hover-main-400 transition-ease-in border-main-300 rounded-2xl'>
                         <header className="mb-2">
-                            <h6 className='mb-2'>Cursando ensino médio técnico em Informática para Internet</h6>
+                            <h6 className='mb-2'>Formação no ensino médio integrado ao curso técnico em Informática para Internet</h6>
                         </header>
-                        <p className='mb-4'>Logo mais, se Deus quiser, concluirei o meu ensino médio técnico no Instituto Federal de Ciências e Tecnologia do Rio Grande do Norte (IFRN). onde o meu ensino médio é integrado ao curso Informática para Internet.</p>
+                        <p className='mb-4'>Graças a Deus sou formado no ensino médio na modalidade integrada ao curso tecnólogo de Informática para Internet no Instituto Federal de Ciências e Tecnologia do Rio Grande do Norte (IFRN), do qual possuí uma duração total de 4 anos. <br /> Tive o privilégio de estudar minhas disciplinas propedêuticas (relacionadas ao ensino médio) e técnicas (relacionadas ao curso), as quais foram distribuídas ao longo de 4 anos numa carga horária total de 3995 horas. </p>
                         <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
-                            <p className='font-bold'>+3 anos </p>
-                            <p><time dateTime="2021-05">Maio/2021</time> - Atualmente</p>
+                            <p className='font-bold'>4 anos </p>
+                            <p><time dateTime="2021-05">Maio/2021</time> - <time dateTime="2025-01">Jan/2025</time></p>
                         </div>
                         </article>
                     </li>
@@ -343,13 +343,13 @@ function Main(){
 
                     <ul className='cards-trajetoria py-2 flex flex-col gap-6'>
                     <li className='card-trajetoria'>
-                        <article className='p-4 hover-main-400 transition-ease-in border-main-300 bg-main-500 rounded-2xl'>
+                        <article className='p-4 hover-main-400 transition-ease-in border-main-300 rounded-2xl'>
                         <header className="mb-2">
                             <h6 className='mb-2'>Bolsista do projeto de extensão AWE</h6>
                         </header>
                         <p className='mb-4'>
-                            Atualmente sou bolsista do projeto de extensão Agência Web Escolar no próprio IFRN, em que sou muito feliz por fazer parte desse projeto que vem transformando minha visão e carreira profissional, capacitando-me para o futuro mercado de trabalho, do qual em breve, se Deus quiser, irei ingressar. <br />
-                            E também, exerço aqui o cargo de Full Stack Develloper | Apprentice onde desenvolvemos aplicações direcionadas para plataformas web, com desenvolvimento do Design de uma aplicação até a sua programação funcional, FrontEnd, BackEnd e até programação mobile (flutter).
+                            Fui bolsista do projeto de extensão Agência Web Escolar no próprio IFRN por 6 meses, em que sou muito feliz por fazer parte desse projeto que transformou minha visão e carreira profissional, capacitando-me para o mercado de trabalho, do qual em breve, se Deus quiser, irei ingressar. <br />
+                            Exerci o cargo de Full Stack Develloper | Apprentice onde desenvolvemos aplicações direcionadas para plataformas web, com desenvolvimento do Design de uma aplicação até a sua programação funcional, FrontEnd, BackEnd e até programação mobile (flutter).
                         </p>
                         <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
                             <p className='font-bold'>+6 meses</p>

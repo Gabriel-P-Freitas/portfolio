@@ -1188,6 +1188,14 @@ span, a, source {
   color: var(--main-100);
 }
 
+.social-links:hover {
+  color: var(--main-200);
+}
+
+.separator {
+  height: 1px;
+}
+
 header.header-portfolio a.header-link {
   border-bottom: 1px solid transparent;
   transition: all 0.3s ease-in;
@@ -1279,19 +1287,11 @@ main .sec-contact .contact-content {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  main .sec-videos .list-videos {
-    overflow-x: scroll;
-  }
-
   main .sec-videos .list-videos li {
     min-width: 26.5rem;
   }
 
-  main .slide-depoimentos {
-    overflow-x: scroll;
-  }
-
-  main .slide-depoimentos blockquote.bloco-depoimento {
+  main .sec-depoimentos .slide-depoimentos blockquote.bloco-depoimento {
     min-width: 26.5rem;
   }
 
@@ -1403,6 +1403,14 @@ main .sec-contact .contact-content {
   main .sec-contact .btn-contact i:nth-child(2) {
     display: none !important;
   }
+
+  main .sec-videos .list-videos {
+    overflow-x: scroll;
+  }
+
+  main .sec-depoimentos .slide-depoimentos {
+    overflow-x: scroll;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1427,13 +1435,5 @@ main .sec-contact .contact-content {
   footer.footer-portfolio .content-footer .copyright-text {
     order: 3;
   }
-}
-
-.social-links:hover {
-  color: var(--main-200);
-}
-
-.separator {
-  height: 1px;
 }
 /*# sourceMappingURL=output.css.map */
