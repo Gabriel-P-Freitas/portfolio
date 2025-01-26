@@ -13,9 +13,9 @@ function Main(){
                 </div>
                 
                 <picture className='avatar-gabriel'>
-                <source srcSet='././imgs/avatar-mobile.svg' media='(max-width: 576px)'/>
-                <source srcSet='././imgs/avatar-tablet.svg' media='(max-width: 1280px)'/>
-                <img src="././imgs/avatar-desktop.svg" alt="Avatar Gabriel" />
+                    <source srcSet='././imgs/avatar-mobile.svg' media='(max-width: 576px)'/>
+                    <source srcSet='././imgs/avatar-tablet.svg' media='(max-width: 1280px)'/>
+                    <img src="././imgs/avatar-desktop.svg" alt="Avatar Gabriel" />
                 </picture>
 
                 <div className="buttons-contact flex flex-col gap-4 items-end">
@@ -169,29 +169,29 @@ function Main(){
 
                 <ul className='list-videos py-4 flex gap-x-6 mb-8'>
                 <li className='w-1/3'>
-                    <a className='card-video hover-main-400 transition-ease-in pb-4 border-main-300 rounded-2xl' href="">
-                    <figure className='relative mb-4'>
-                        <img className='rounded-t-2xl' src="././imgs/portfolio-video.svg" alt="portfolio" />
-                        <span className='absolute center-x-y bg-main-300 px-5 py-4 rounded-full'><i className="text-2xl/none color-cod-50 fa-solid fa-play"></i></span>
-                    </figure>
-                    <div className="content-video px-4">
-                        <div className="title-video flex justify-between items-center mb-4">
-                        <h6>Portfólio</h6>
-                        <dl className='flex gap-x-2 color-main-100'>
-                            <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">React JS</dd>
-                            <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">CSS Responsivo</dd>
-                        </dl>
+                    <a className='card-video hover-main-400 transition-ease-in pb-4 border-main-300 rounded-2xl' href="https://www.youtube.com/playlist?list=PLIfEkQw-gAsgThFwCQ7UJNsGeqkPBm2wh" target="_blank">
+                        <figure className='relative mb-4'>
+                            <img className='rounded-t-2xl' src="././imgs/portfolio-video.svg" alt="portfolio" />
+                            <span className='absolute center-x-y bg-main-300 px-5 py-4 rounded-full'><i className="text-2xl/none color-cod-50 fa-solid fa-play"></i></span>
+                        </figure>
+                        <div className="content-video px-4">
+                            <div className="title-video flex justify-between items-center mb-4">
+                            <h6>Portfólio</h6>
+                            <dl className='flex gap-x-2 color-main-100'>
+                                <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">React JS</dd>
+                                <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">CSS Responsivo</dd>
+                            </dl>
+                            </div>
+                            <div className="description-video flex justify-between items-center fs-large">
+                            <p>Como foi feito meu portfólio</p>
+                            <button className=''>Assistir<i className="color-main-300 ps-2 fa-solid fa-play"></i></button>
+                            </div>
                         </div>
-                        <div className="description-video flex justify-between items-center fs-large">
-                        <p>Como foi feito meu portfólio</p>
-                        <button className=''>Assistir<i className="color-main-300 ps-2 fa-solid fa-play"></i></button>
-                        </div>
-                    </div>
                     </a>
                 </li>
                 </ul>
 
-                <a href='https://www.loom.com/profile/Gabriel-4b387f54-7d07-4e2b-bfb4-c41134813db5' target='_blank' className='color-main-100 block text-end fs-xlarge'>Conhecer mais projetos <i className="ps-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href='https://www.youtube.com/@Gabriel-Pessoa-Dev/playlists' target='_blank' className='color-main-100 block text-end fs-xlarge'>Conhecer mais projetos <i className="ps-2 fa-solid fa-arrow-up-right-from-square"></i></a>
 
             </section>
 
