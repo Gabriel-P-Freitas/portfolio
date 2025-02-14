@@ -1,239 +1,235 @@
-main{
-    .hero-saudacoes{
-        .avatar-gabriel{
-            img{
-                width: 536px;
-            }
-        }
+main {
+  .hero-saudacoes {
+    .avatar-gabriel {
+      img {
+        width: 536px;
+      }
     }
-    .my-experience{
-        max-width: 61.5rem;
+  }
+  .my-experience {
+    max-width: 61.5rem;
+  }
+  .sec-praticas-projetos {
+    .card-pratica {
+      min-height: 35.75rem;
+      .figma-anchor {
+        font-size: 1.75rem;
+      }
+      .figma-anchor:hover {
+        color: var(--cod-gray-50);
+        background-color: var(--main-300);
+      }
+      .github-anchor:hover {
+        color: var(--cod-gray-50);
+      }
     }
-    .sec-praticas-projetos{
-        .card-pratica{
-            min-height: 32.5rem;
-            .figma-anchor{
-                font-size: 1.75rem;
-            }
-            .figma-anchor:hover{
-                color: var(--cod-gray-50);
-                background-color: var(--main-300);
-            }
-            .github-anchor:hover{
-                color: var(--cod-gray-50);
-            }
+  }
 
-        }
-    }
-  
-    .tecnologias-content{
-        .tecnologia-caption{
-            width: 75px;
-            height: 75px;
-            .tecnologia{
-                animation: 2s infinite alternate skills-icons;
-                @keyframes skills-icons {
-                    from{
-                        color: var(--main-300);
-                    }
-        
-                    to{
-                        color: var(--main-100);
-                    }
-                }
-            }
-        }
-    }
-
-    .sec-contact{
-        .contact-content{
-            max-width: 61.875rem;
-        }
-    }
-    
-    
-
-    @media screen and (min-width: 1280px) {
-        
-        
-    }
-    
-    @media screen and (max-width: 1280px) {
-        .hero-saudacoes{
-            .buttons-contact{
-                flex-direction: row;
-                margin-inline: auto;
-            }
-            .avatar-gabriel{
-                img{
-                    width: 28.25rem;
-                }
-            }
-        }
-        
-        .sec-praticas-projetos{
-            .list-praticas{
-                grid-template-columns: repeat(2, minmax(0, 1fr));
-            }
-        }
-
-        .sec-videos{
-            .list-videos{
-                li{
-                    min-width: 26.5rem;
-                }
-            }
-        }
-
-        .sec-depoimentos{
-            .slide-depoimentos{
-                blockquote.bloco-depoimento{
-                    min-width: 26.5rem;
-                }
-            }
-        }
-        .slide-depoimentos::-webkit-scrollbar, .list-videos::-webkit-scrollbar, .list-praticas::-webkit-scrollbar, .cards-trajetoria::-webkit-scrollbar {
-            background-color: var(--cod-gray-900);
-            border-radius: 8px;
-            height: 12px;
+  .tecnologias-content {
+    .tecnologia-caption {
+      width: 75px;
+      height: 75px;
+      .tecnologia {
+        animation: 2s infinite alternate skills-icons;
+        @keyframes skills-icons {
+          from {
+            color: var(--main-300);
           }
-        .slide-depoimentos::-webkit-scrollbar-thumb, .list-videos::-webkit-scrollbar-thumb, .list-praticas::-webkit-scrollbar-thumb, .cards-trajetoria::-webkit-scrollbar-thumb {
-            background-color: var(--main-300);
-            display: inline-block;
-            border-radius: 8px;
+
+          to {
+            color: var(--main-100);
           }
-        
+        }
+      }
+    }
+  }
+
+  .sec-contact {
+    .contact-content {
+      max-width: 61.875rem;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+  }
+
+  @media screen and (max-width: 1280px) {
+    .hero-saudacoes {
+      .buttons-contact {
+        flex-direction: row;
+        margin-inline: auto;
+      }
+      .avatar-gabriel {
+        img {
+          width: 28.25rem;
+        }
+      }
     }
 
-
-    @media screen and (max-width: 992px) {
-        .sec-praticas-projetos{
-            .header-praticas{
-                align-items: start;
-                flex-direction: column;
-            }
-        }
-
-        .sec-videos{
-            .text-sec-project{
-                width: 100%;
-            }
-        }
-
-        .sec-trajetoria{
-            .list-trajetoria{
-                flex-direction: column;
-                align-items: center;
-                gap: 3rem;
-                .column-trajetoria{
-                    width: 70%;
-                }
-            }
-        }
-
-        .sec-contact{
-            .contact-content{
-                max-width: 29rem;
-                .btn-contact{
-                    width: 100%;
-                }
-            }
-        }
+    .sec-praticas-projetos {
+      .list-praticas {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
     }
 
-    @media screen and (max-width: 768px) {
-        .hero-saudacoes{
-            .avatar-gabriel{
-                img{
-                    width: 100%;
-                }
-            }
-            .buttons-contact{
-                margin-inline: clamp(0rem, 6vw, 3rem);
-            }
+    .sec-videos {
+      .list-videos {
+        li {
+          min-width: 26.5rem;
         }
-        .sobre-mim-content{
-            flex-direction: column;
-            picture, picture>img{
-                width: 90%;
-                margin: 0 auto;
-            }
-            .sobre-mim{
-                width: 100%;
-            }
-        }
-
-        .sec-praticas-projetos{
-            .list-praticas{
-                display: flex;
-                overflow-x: scroll;
-                .card-pratica{
-                    width: 24.75rem;
-                }
-            }
-        }
-        
-        .sec-trajetoria{
-            .list-trajetoria{
-                .column-trajetoria{
-                    width: 100%;
-                }
-            }
-        }
-
-        .sec-depoimentos{
-            .header-depoimentos{
-                flex-direction: column;
-            }
-        }
-        
+      }
     }
 
-    @media screen and (max-width: 464px) {
-        .hero-saudacoes{
-            .buttons-contact{
-                flex-direction: column;
-                margin-inline: auto;
-            }
+    .sec-depoimentos {
+      .slide-depoimentos {
+        blockquote.bloco-depoimento {
+          min-width: 26.5rem;
         }
-
-        .sec-trajetoria{
-            .column-trajetoria{
-                .cards-trajetoria{
-                    flex-direction: row;
-                    overflow-x: scroll;
-                    .card-trajetoria{
-                        min-width: 100%;
-                    }
-                }
-            }
-        }
-
-        .sec-contact{
-            .btn-contact{
-                justify-content: center;
-                .text-contact{
-                    font-size: 16px;    
-                }
-                i:nth-child(2){
-                    display: none !important;
-                }
-            }
-        }
-
-            .list-videos{
-        .sec-videos{
-                overflow-x: scroll;
-            }
-        }
-
-        .sec-depoimentos{
-            .slide-depoimentos{
-                overflow-x: scroll;
-            }
-        }
-
-        
-        
+      }
     }
+    .slide-depoimentos::-webkit-scrollbar,
+    .list-videos::-webkit-scrollbar,
+    .list-praticas::-webkit-scrollbar,
+    .cards-trajetoria::-webkit-scrollbar {
+      background-color: var(--cod-gray-900);
+      border-radius: 8px;
+      height: 12px;
+    }
+    .slide-depoimentos::-webkit-scrollbar-thumb,
+    .list-videos::-webkit-scrollbar-thumb,
+    .list-praticas::-webkit-scrollbar-thumb,
+    .cards-trajetoria::-webkit-scrollbar-thumb {
+      background-color: var(--main-300);
+      display: inline-block;
+      border-radius: 8px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .sec-praticas-projetos {
+      .header-praticas {
+        align-items: start;
+        flex-direction: column;
+      }
+    }
+
+    .sec-videos {
+      .text-sec-project {
+        width: 100%;
+      }
+    }
+
+    .sec-trajetoria {
+      .list-trajetoria {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        .column-trajetoria {
+          width: 70%;
+        }
+      }
+    }
+
+    .sec-contact {
+      .contact-content {
+        max-width: 29rem;
+        .btn-contact {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero-saudacoes {
+      .avatar-gabriel {
+        img {
+          width: 100%;
+        }
+      }
+      .buttons-contact {
+        margin-inline: clamp(0rem, 6vw, 3rem);
+      }
+    }
+    .sobre-mim-content {
+      flex-direction: column;
+      picture,
+      picture > img {
+        width: 90%;
+        margin: 0 auto;
+      }
+      .sobre-mim {
+        width: 100%;
+      }
+    }
+
+    .sec-praticas-projetos {
+      .list-praticas {
+        display: flex;
+        overflow-x: scroll;
+        .card-pratica {
+          width: 24.75rem;
+        }
+      }
+    }
+
+    .sec-trajetoria {
+      .list-trajetoria {
+        .column-trajetoria {
+          width: 100%;
+        }
+      }
+    }
+
+    .sec-depoimentos {
+      .header-depoimentos {
+        flex-direction: column;
+      }
+    }
+  }
+
+  @media screen and (max-width: 464px) {
+    .hero-saudacoes {
+      .buttons-contact {
+        flex-direction: column;
+        margin-inline: auto;
+      }
+    }
+
+    .sec-trajetoria {
+      .column-trajetoria {
+        .cards-trajetoria {
+          flex-direction: row;
+          overflow-x: scroll;
+          .card-trajetoria {
+            min-width: 100%;
+          }
+        }
+      }
+    }
+
+    .sec-contact {
+      .btn-contact {
+        justify-content: center;
+        .text-contact {
+          font-size: 16px;
+        }
+        i:nth-child(2) {
+          display: none !important;
+        }
+      }
+    }
+
+    .list-videos {
+      .sec-videos {
+        overflow-x: scroll;
+      }
+    }
+
+    .sec-depoimentos {
+      .slide-depoimentos {
+        overflow-x: scroll;
+      }
+    }
+  }
 }

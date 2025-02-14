@@ -1234,7 +1234,7 @@ main .my-experience {
 }
 
 main .sec-praticas-projetos .card-pratica {
-  min-height: 32.5rem;
+  min-height: 35.75rem;
 }
 
 main .sec-praticas-projetos .card-pratica .figma-anchor {
@@ -1295,13 +1295,19 @@ main .sec-contact .contact-content {
     min-width: 26.5rem;
   }
 
-  main .slide-depoimentos::-webkit-scrollbar, main .list-videos::-webkit-scrollbar, main .list-praticas::-webkit-scrollbar, main .cards-trajetoria::-webkit-scrollbar {
+  main .slide-depoimentos::-webkit-scrollbar,
+  main .list-videos::-webkit-scrollbar,
+  main .list-praticas::-webkit-scrollbar,
+  main .cards-trajetoria::-webkit-scrollbar {
     background-color: var(--cod-gray-900);
     border-radius: 8px;
     height: 12px;
   }
 
-  main .slide-depoimentos::-webkit-scrollbar-thumb, main .list-videos::-webkit-scrollbar-thumb, main .list-praticas::-webkit-scrollbar-thumb, main .cards-trajetoria::-webkit-scrollbar-thumb {
+  main .slide-depoimentos::-webkit-scrollbar-thumb,
+  main .list-videos::-webkit-scrollbar-thumb,
+  main .list-praticas::-webkit-scrollbar-thumb,
+  main .cards-trajetoria::-webkit-scrollbar-thumb {
     background-color: var(--main-300);
     display: inline-block;
     border-radius: 8px;
@@ -1350,7 +1356,8 @@ main .sec-contact .contact-content {
     flex-direction: column;
   }
 
-  main .sobre-mim-content picture, main .sobre-mim-content picture > img {
+  main .sobre-mim-content picture,
+  main .sobre-mim-content picture > img {
     width: 90%;
     margin: 0 auto;
   }
@@ -1404,7 +1411,7 @@ main .sec-contact .contact-content {
     display: none !important;
   }
 
-  main .sec-videos .list-videos {
+  main .list-videos .sec-videos {
     overflow-x: scroll;
   }
 
