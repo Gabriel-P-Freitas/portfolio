@@ -7,7 +7,7 @@ function Main() {
             👋 Saudações!
           </h6>
           <h1>Gabriel Pessoa</h1>
-          <h6 className="font-normal">Full Strack Developer | Junior</h6>
+          <h6 className="font-normal">Full Stack Developer | Junior</h6>
           <ul className="flex gap-x-4 items-center justify-self-start">
             <li>
               <a
@@ -436,6 +436,10 @@ function Main() {
               </figcaption>
 
               <figcaption className="tecnologia-caption">
+                <i className="tecnologia text-7xl fa-brands fa-react"></i>
+              </figcaption>
+
+              <figcaption className="tecnologia-caption">
                 <i className="tecnologia text-6xl fa-brands fa-sass"></i>
               </figcaption>
 
@@ -491,11 +495,15 @@ function Main() {
               </figcaption>
 
               <figcaption className="tecnologia-caption">
-                <i className="tecnologia text-7xl fa-brands fa-react"></i>
+                <i className="tecnologia text-7xl fa-brands icon-c"></i>
               </figcaption>
 
               <figcaption className="tecnologia-caption">
                 <i className="tecnologia text-7xl fa-brands fa-vuejs"></i>
+              </figcaption>
+
+              <figcaption className="tecnologia-caption">
+                <i className="tecnologia text-7xl rounded icon-typescript"></i>
               </figcaption>
             </figure>
           </div>
