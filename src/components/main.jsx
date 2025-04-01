@@ -46,7 +46,7 @@ function Main() {
           <button className="bg-main-500 w-max rounded-2xl">
             <a
               className="color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in px-10 flex items-center py-3"
-              href="./imgs/CV - Gabriel Pessoa.pdf"
+              href="./imgs/CV-Gabriel-Pessoa-xl.pdf"
               download={"CV - Gabriel Pessoa.pdf"}
             >
               Baixar CV{" "}
@@ -242,14 +242,15 @@ function Main() {
                 <p className="mb-2">
                   O StructBoost foi um projeto feito através do curso Introdução
                   ao FrontEnd ofertado pela CodeBoost. Tive o privilégio de me
-                  aprofundar tanto no HTML quanto nas CSS.
+                  aprofundar tanto no HTML quanto nas CSS. Criando uma aplicação
+                  responsiva e animada.
                 </p>
                 <dl className="flex flex-wrap gap-2 color-main-100 mb-2">
                   <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">
                     HTML
                   </dd>
                   <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">
-                    CSS
+                    CSS Responsivo
                   </dd>
                   <dd className="fs-xsmall font-extrabold bg-main-500 py-1 px-2 rounded">
                     Git e GitHub
@@ -529,31 +530,60 @@ function Main() {
               <li className="card-trajetoria">
                 <article className="p-4 border-main-300 hover-main-400 transition-ease-in bg-main-500 rounded-2xl">
                   <header className="mb-2">
+                    <h6 className="mb-2">
+                      Full Stack Developer, Desenvolvedor de sistemas
+                    </h6>
+                  </header>
+                  <p className="mb-4">
+                    O Full Stack Club (FSC) não é só um curso online, mas sim
+                    uma comunidade de programadores onde estudo e estou dando o
+                    próximo passo na minha carreira como programador e me
+                    tornando um Full Stack Developer de sucesso, dominando o
+                    front end e o back ends <br />
+                    São mais de 950 aulas no FSC divididas em mais de 90 módulos
+                    separados em tais formações: CodeStart, Formação em React e
+                    em React Pro, Formação em Next.js, Formação Full Stack
+                    (Node, PostGreeSQL, Docker, API), Tech Recruiter Skills,
+                    Curso UI PRO, Intensivo de Inglês para devs, Bootcamp SaaS,
+                    Formação em React Native, Formação em SOLID, Formação em
+                    CyberSecurity e MasterClass (Tecnologias atuais no mercado).
+                    <br />
+                    Tenho mentoria semanal com a coordenação do FSC e +10
+                    projetos robustos e complexos que estou começando a
+                    desenvolvê los, sem contar as práticas e pequenos projetos
+                    de cada módulo.
+                  </p>
+                  <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
+                    <p className="font-bold">+1 mês </p>
+                    <p>
+                      <time dateTime="2025-03"> Mar/2025</time> - Atualmente
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li className="card-trajetoria">
+                <article className="p-4 border-main-300 hover-main-400 transition-ease-in rounded-2xl">
+                  <header className="mb-2">
                     <h6 className="mb-2">Capacitação em Sistemas Embarcados</h6>
                   </header>
                   <p className="mb-4">
-                    Faço o curso de Capacitação em Sistemas Embarcados, o qual é
-                    alinhado ao eixo tecnológico de Informação e Comunicação. O
-                    curso visa atender as necessidades das áreas de Informática
-                    ou Engenharias à programação e manutenção de sistemas
-                    embarcados com tecnologias de Internet das Coisas (IoT),
-                    permitindo a criação de soluções inovadoras. Alguns
-                    objetivos específicos do curso são: <br />
-                    • Preparar os/às estudantes para prestar suporte técnico,
+                    Terminei este curso, onde ele é alinhado ao eixo tecnológico
+                    de Informação e Comunicação. O curso abrange as áreas de
+                    Informática ou Engenharias à programação e manutenção de
+                    sistemas embarcados com tecnologias de Internet das Coisas
+                    (IoT), permitindo a criação de soluções inovadoras que
+                    conectem dispositivos e possibilitem a automação e o
+                    monitoramento em tempo real. <br />• Suporte técnico,
                     manutenção e outros serviços em dispositivos eletrônicos
-                    dedicados, contribuindo para o avanço tecnológico e o
-                    crescimento da indústria de sistemas embarcados. <br />•
-                    Capacitar os/às estudantes para integrar sistemas embarcados
-                    com tecnologias de Internet das Coisas (IoT), permitindo a
-                    criação de soluções inovadoras que conectem dispositivos e
-                    possibilitem a automação e o monitoramento em tempo real,
-                    atendendo às demandas emergentes de diversos setores da
-                    indústria.
+                    dedicados. <br /> • Possuí carga horária total de 160 horas
+                    sendo um curso de formação inicial continuada (FIC) ofertado
+                    pelo campus Natal Zona Leste e Currais Novos, ambos do IFRN
                   </p>
                   <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
-                    <p className="font-bold">+2 meses </p>
+                    <p className="font-bold">4 meses </p>
                     <p>
-                      <time dateTime="2024-11">Novembro/2024</time> - Atualmente
+                      <time dateTime="2024-11">Nov/2024</time> -
+                      <time dateTime="2025-03"> Mar/2025</time>
                     </p>
                   </div>
                 </article>
@@ -580,8 +610,8 @@ function Main() {
                   <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
                     <p className="font-bold">4 anos </p>
                     <p>
-                      <time dateTime="2021-05">Maio/2021</time> -{" "}
-                      <time dateTime="2025-01">Jan/2025</time>
+                      <time dateTime="2021-05">Maio/2021</time> -
+                      <time dateTime="2025-01"> Jan/2025</time>
                     </p>
                   </div>
                 </article>
@@ -813,7 +843,7 @@ function Main() {
           </a>
           <a
             className="btn-contact w-6/12 bg-main-500 color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in flex justify-center items-center py-5 fs-xlarge font-semibold"
-            href="./imgs/CV - Gabriel Pessoa.pdf"
+            href="./imgs/CV-Gabriel-Pessoa-xl"
             download={"CV - Gabriel Pessoa.pdf"}
           >
             Baixar CV{" "}
