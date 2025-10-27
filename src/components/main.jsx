@@ -46,8 +46,8 @@ function Main() {
           <button className="bg-main-500 w-max rounded-2xl">
             <a
               className="color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in px-10 flex items-center py-3"
-              href="./imgs/CV-Gabriel-Pessoa-xl.pdf"
-              download={"CV - Gabriel Pessoa.pdf"}
+              href="./imgs/CV - Gabriel Pessoa (Portfólio).pdf"
+              download={"CV - Gabriel Pessoa (Portfólio).pdf"}
             >
               Baixar CV{" "}
               <i className="text-xl/none ms-2 fa-regular fa-circle-down"></i>
@@ -73,7 +73,7 @@ function Main() {
               srcSet="./imgs/perfil-responsive.svg"
               media="(max-width: 992px)"
             />
-            <img src="././imgs/perfil-desktop.svg" alt="Meu perfil" />
+            <img src="imgs/perfil-gabriel-removebg.svg" alt="Meu perfil" />
           </picture>
 
           <div className="sobre-mim w-7/12 flex flex-col gap-y-4">
@@ -535,26 +535,26 @@ function Main() {
                     </h6>
                   </header>
                   <p className="mb-4">
-                    O Full Stack Club (FSC) não é só um curso online, mas sim
-                    uma comunidade de programadores onde estudo e estou dando o
-                    próximo passo na minha carreira como programador e me
-                    tornando um Full Stack Developer de sucesso, dominando o
-                    front end e o back ends <br />
-                    São mais de 950 aulas no FSC divididas em mais de 90 módulos
-                    separados em tais formações: CodeStart, Formação em React e
-                    em React Pro, Formação em Next.js, Formação Full Stack
-                    (Node, PostGreeSQL, Docker, API), Tech Recruiter Skills,
-                    Curso UI PRO, Intensivo de Inglês para devs, Bootcamp SaaS,
-                    Formação em React Native, Formação em SOLID, Formação em
-                    CyberSecurity e MasterClass (Tecnologias atuais no mercado).
+                    • O Full Stack Club (FSC) é uma comunidade de programadores
+                    com diversas formações onde estudo e me reuno com os
+                    instrutores e estou dando o próximo passo na minha carreira
+                    como programador e me tornando um Full Stack Developer
+                    melhor a cada dia dominando mais o front end e o back end.{" "}
                     <br />
-                    Tenho mentoria semanal com a coordenação do FSC e +10
-                    projetos robustos e complexos que estou começando a
-                    desenvolvê los, sem contar as práticas e pequenos projetos
-                    de cada módulo.
+                    • São mais de 950 aulas no FSC divididas em mais de 90
+                    módulos separados em tais formações: CodeStart, Formação em
+                    React e em React Pro, Formação em Next.js, Formação Full
+                    Stack (Node, PostGreeSQL, Docker, API), Tech Recruiter
+                    Skills, Curso UI PRO, Intensivo de Inglês para devs,
+                    Bootcamp SaaS, Formação em React Native, Formação em SOLID,
+                    Formação em CyberSecurity e MasterClass (Tecnologias atuais
+                    no mercado) <br />• Tenho mentoria semanal com a coordenação
+                    do FSC e +10 projetos robustos e complexos que estou
+                    começando a desenvolvê los, sem contar as práticas e
+                    pequenos projetos de cada módulo.
                   </p>
                   <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
-                    <p className="font-bold">+1 mês </p>
+                    <p className="font-bold">+7 meses </p>
                     <p>
                       <time dateTime="2025-03"> Mar/2025</time> - Atualmente
                     </p>
@@ -567,17 +567,17 @@ function Main() {
                     <h6 className="mb-2">Capacitação em Sistemas Embarcados</h6>
                   </header>
                   <p className="mb-4">
-                    Terminei este curso, onde ele é alinhado ao eixo tecnológico
-                    de Informação e Comunicação. O curso abrange as áreas de
-                    Informática ou Engenharias à programação e manutenção de
-                    sistemas embarcados com tecnologias de Internet das Coisas
-                    (IoT), permitindo a criação de soluções inovadoras que
-                    conectem dispositivos e possibilitem a automação e o
-                    monitoramento em tempo real. <br />• Suporte técnico,
-                    manutenção e outros serviços em dispositivos eletrônicos
-                    dedicados. <br /> • Possuí carga horária total de 160 horas
-                    sendo um curso de formação inicial continuada (FIC) ofertado
-                    pelo campus Natal Zona Leste e Currais Novos, ambos do IFRN
+                    O curso Capacitação em Sistemas Embarcados é alinhado ao
+                    eixo tecnológico de Informação e Comunicação. O curso
+                    abrange as áreas de Informática ou Engenharias à programação
+                    e manutenção de sistemas embarcados com tecnologias de
+                    Internet das Coisas (IoT), permitindo a criação de soluções
+                    inovadoras que conectem dispositivos e possibilitem a
+                    automação e o monitoramento em tempo real. <br />• Suporte
+                    técnico, manutenção e outros serviços em dispositivos
+                    eletrônicos dedicados. <br /> • Possuí carga horária total
+                    de 160 horas sendo um curso de formação inicial continuada
+                    (FIC) que fiz pelo IFRN.
                   </p>
                   <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
                     <p className="font-bold">4 meses </p>
@@ -684,6 +684,36 @@ function Main() {
               <li className="card-trajetoria">
                 <article className="p-4 hover-main-400 transition-ease-in border-main-300 rounded-2xl">
                   <header className="mb-2">
+                    <h6 className="mb-2">Desenvolvedor Web Front-End</h6>
+                  </header>
+                  <p className="mb-4">
+                    • Trabalhei como Desenvolvedor web Front-End e Gestor de
+                    Tráfego Pago na Varlik; <br /> • Fiz o desenvolvimento de
+                    aplicações com automações e tráfego pago para clientes de
+                    micro e médio negócios, e instituições de renome trazendo a
+                    tecnologia e a inovação ao cotidiano de cada cliente gerando
+                    resultados reais. <br /> • Com o trabalho em equipe em cada
+                    demanda, pude aprimorar minhas habilidades ajudando uns aos
+                    outros, compartilhando nossas dificuldades, aprendizados e
+                    sugestões. Isso foi um grande diferencial para mim, pois
+                    conseguimos fazer grandes projetos com ótimos resultados
+                    estando em equipe. <br /> • Ao todo foram +10 Projetos
+                    desenvolvidos que estão no ar e várias campanhas no Meta ADS
+                    escaladas resultando em grandes impactos lucrativos
+                    para cada cliente;
+                  </p>
+                  <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
+                    <p className="font-bold">6 meses</p>
+                    <p>
+                      <time dateTime="2025-04">Abril/2025</time> -{" "}
+                      <time dateTime="2025-10">Outubro/2025</time>
+                    </p>
+                  </div>
+                </article>
+              </li>
+              <li className="card-trajetoria">
+                <article className="p-4 hover-main-400 transition-ease-in border-main-300 rounded-2xl">
+                  <header className="mb-2">
                     <h6 className="mb-2">
                       Bolsista do projeto de extensão AWE
                     </h6>
@@ -701,9 +731,10 @@ function Main() {
                     mobile (flutter).
                   </p>
                   <div className="tempo flex flex-wrap justify-between color-main-100 fs-large">
-                    <p className="font-bold">+6 meses</p>
+                    <p className="font-bold">6 meses</p>
                     <p>
-                      <time dateTime="2024-07">Julho/2024</time> - Atualmente
+                      <time dateTime="2024-07">Julho/2024</time> -{" "}
+                      <time dateTime="2025-01">Janeiro/2025</time>
                     </p>
                   </div>
                 </article>
@@ -843,8 +874,8 @@ function Main() {
           </a>
           <a
             className="btn-contact w-6/12 bg-main-500 color-main-300 rounded-2xl hover-main-400 hover-color-100 transition-ease-in flex justify-center items-center py-5 fs-xlarge font-semibold"
-            href="./imgs/CV-Gabriel-Pessoa-xl"
-            download={"CV - Gabriel Pessoa.pdf"}
+            href="./imgs/CV - Gabriel Pessoa (Portfólio).pdf"
+            download={"CV - Gabriel Pessoa (Portfólio).pdf"}
           >
             Baixar CV{" "}
             <i className="text-2xl/none ms-2 fa-regular fa-circle-down"></i>
